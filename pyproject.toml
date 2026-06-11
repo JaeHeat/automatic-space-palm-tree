@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "qstack"
+version = "0.1.0"
+description = "Open-source quant stack: research database, backtesting, workflow automation, and execution"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "qstack" }]
+dependencies = [
+    "numpy>=1.23",
+    "pandas>=1.5",
+]
+
+# Optional backends. The core package runs with zero extras using a synthetic
+# data source, a SQLite-backed store, and a pure-numpy backtester. Install an
+# extra only when you want that live backend.
+[project.optional-dependencies]
+data = ["yfinance>=0.2", "duckdb>=0.9"]      # live market data + columnar store
+crypto = ["ccxt>=4.0"]                         # crypto data + execution
+backtest = ["vectorbt>=0.26"]                  # vectorized backtesting engine
+broker = ["alpaca-py>=0.20"]                   # equities execution
+all = ["yfinance>=0.2", "duckdb>=0.9", "ccxt>=4.0", "vectorbt>=0.26", "alpaca-py>=0.20"]
+
+[project.scripts]
+qstack = "qstack.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["qstack*"]
