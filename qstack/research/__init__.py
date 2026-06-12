@@ -10,7 +10,17 @@
 
 from qstack.research.backtest import Backtest, BacktestResult
 from qstack.research.optimize import grid_search
-from qstack.research.orb import ES, NQ, Instrument, ORBParams, ORBResult, backtest_orb
+from qstack.research.orb import (
+    ES,
+    NQ,
+    Instrument,
+    ORBParams,
+    ORBResult,
+    WalkForwardResult,
+    backtest_orb,
+    trade_stats,
+    walk_forward,
+)
 from qstack.research.strategies import momentum, rsi_reversion, sma_crossover
 
 __all__ = [
@@ -21,8 +31,11 @@ __all__ = [
     "rsi_reversion",
     "momentum",
     "backtest_orb",
+    "walk_forward",
+    "trade_stats",
     "ORBParams",
     "ORBResult",
+    "WalkForwardResult",
     "Instrument",
     "NQ",
     "ES",

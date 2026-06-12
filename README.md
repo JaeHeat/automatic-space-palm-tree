@@ -106,9 +106,16 @@ res = backtest_orb(df, ORBParams(or_minutes=30, direction="both",
 print(res)                                             # trades, net P&L, PF, win%, maxDD, Sharpe
 ```
 
-[`examples/orb_futures.py`](examples/orb_futures.py) optimizes the ORB
-parameters on an in-sample TRAIN window and reports performance on a held-out
-TEST window — so a "profitable" claim isn't just curve-fit:
+Optional filters keep a raw ORB from bleeding in chop: a **trend filter**
+(`trend_ma` — only trade with the daily trend), a **volatility filter**
+(`vol_min_frac` — skip small opening ranges), and an **entry cutoff**
+(`entry_cutoff` — no new entries late in the day).
+
+[`examples/orb_futures.py`](examples/orb_futures.py) evaluates the parameter
+grid two ways so a "profitable" claim isn't curve-fit: a single TRAIN/TEST
+split, and a rolling **walk-forward** (`walk_forward()` — re-optimize on a
+trailing year, trade the next quarter, repeat) that produces a fully
+out-of-sample track record.
 
 ```bash
 python examples/orb_futures.py --csv nq_5m.csv --instrument NQ --split 2025-01-01 --plot orb_nq.png

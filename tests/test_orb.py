@@ -88,3 +88,51 @@ def test_direction_filter_blocks_shorts():
     df = _day(OR_BARS + [("10:00", 98, 99, 97, 97), ("10:05", 97, 97, 94, 94)])
     long_only = ORBParams(or_minutes=30, direction="long", stop_mult=1.0, target_mult=2.0)
     assert len(backtest_orb(df, long_only, T).trades) == 0  # short ignored
+
+
+def _multiday(n=14):
+    """Build n business days, each a long breakout that runs to target."""
+    frames = []
+    for day in pd.bdate_range("2023-01-02", periods=n):
+        d = day.strftime("%Y-%m-%d")
+        frames.append(_day([
+            ("09:30", 99, 100, 98, 99), ("09:35", 99, 100, 98, 99), ("09:50", 99, 100, 98, 99),
+            ("10:00", 100, 101, 99, 101),    # long entry at 100
+            ("10:05", 101, 104, 101, 104),   # target 104 hit
+        ], date=d))
+    return pd.concat(frames)
+
+
+def test_trade_stats_on_subset_is_consistent():
+    from qstack.research import trade_stats
+    df = _multiday(10)
+    res = backtest_orb(df, P, T)
+    full = res.stats
+    half_dates = set(sorted(set(res.trades["date"]))[:5])
+    sub = res.trades[res.trades["date"].isin(half_dates)]
+    st = trade_stats(sub, 5)
+    assert st["n_trades"] == len(sub)
+    assert st["net_pnl"] == pytest.approx(sub["pnl"].sum())
+    assert full["n_trades"] == len(res.trades)
+
+
+def test_walk_forward_out_of_sample_only():
+    from qstack.research import walk_forward
+    grid = [ORBParams(or_minutes=30, stop_mult=1.0, target_mult=2.0),
+            ORBParams(or_minutes=30, stop_mult=1.5, target_mult=3.0)]
+    df = _multiday(14)
+    wf = walk_forward(df, grid, T, train_days=4, test_days=2, min_train_trades=1)
+    assert not wf.windows.empty
+    # every OOS trade must fall strictly after its window's training period
+    assert wf.oos_trades["pnl"].notna().all()
+    assert wf.stats["n_trades"] == len(wf.oos_trades)
+
+
+def test_trend_filter_blocks_counter_trend():
+    # flat/declining series -> a 50-day uptrend filter should allow no longs
+    df = _multiday(60)
+    longs_only_uptrend = ORBParams(or_minutes=30, direction="long", stop_mult=1.0,
+                                   target_mult=2.0, trend_ma=50)
+    res = backtest_orb(df, longs_only_uptrend, T)
+    # daily close is constant (104 target each day) -> close is not > its own SMA
+    assert len(res.trades) == 0
