@@ -404,3 +404,20 @@ def walk_forward(df: pd.DataFrame, grid: list[ORBParams], instrument: Instrument
     oos = pd.concat(oos_frames).sort_values("exit_time") if oos_frames else pd.DataFrame()
     n_oos_days = sum(len(all_dates[k:k + test_days]) for k in range(train_days, len(all_dates), test_days))
     return WalkForwardResult(pd.DataFrame(rows), oos, n_oos_days)
+
+
+# Robust NQ operating points found by examples/orb_frontier.py. "win > 60% AND
+# PF > 1.5" is unreachable together (the goals trade off along the frontier), so
+# these are the corner choices, each with a profit factor that holds on BOTH the
+# train and test halves of 2022-2026:
+#     max_win   ~73% win, PF ~1.25  (tight target, wide stop)
+#     max_pf    ~57% win, PF ~1.7   (wide target, tight stop)
+#     balanced  ~58% win, PF ~1.6
+NQ_PRESETS = {
+    "max_win": ORBParams(or_minutes=30, direction="both", stop_mult=1.5, target_mult=0.5,
+                         trend_ma=50, skip_monday=True, entry_cutoff=time(11, 30)),
+    "max_pf": ORBParams(or_minutes=60, direction="both", stop_mult=0.75, target_mult=2.0,
+                        trend_ma=50, vol_min_frac=1.0, skip_monday=True, entry_cutoff=time(11, 30)),
+    "balanced": ORBParams(or_minutes=60, direction="both", stop_mult=1.0, target_mult=2.0,
+                          trend_ma=50, vol_min_frac=1.0, skip_monday=True, entry_cutoff=time(11, 30)),
+}
