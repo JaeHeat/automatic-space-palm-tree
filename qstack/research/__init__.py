@@ -9,11 +9,13 @@
 """
 
 from qstack.research.backtest import Backtest, BacktestResult
+from qstack.research.optimize import grid_search
 from qstack.research.strategies import momentum, rsi_reversion, sma_crossover
 
 __all__ = [
     "Backtest",
     "BacktestResult",
+    "grid_search",
     "sma_crossover",
     "rsi_reversion",
     "momentum",

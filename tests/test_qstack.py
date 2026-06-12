@@ -5,7 +5,7 @@ import pytest
 
 from qstack import Backtest, DataStore, Order, PaperBroker, Pipeline, get_source
 from qstack.omega.broker import Side
-from qstack.research import momentum, rsi_reversion, sma_crossover
+from qstack.research import grid_search, momentum, rsi_reversion, sma_crossover
 
 START, END = "2022-01-01", "2024-01-01"
 
@@ -70,6 +70,25 @@ def test_costs_reduce_returns():
     free = Backtest(fee=0, slippage=0).run(df, sig).stats["total_return"]
     costly = Backtest(fee=0.01, slippage=0.01).run(df, sig).stats["total_return"]
     assert costly < free
+
+
+def test_grid_search_ranks_and_filters():
+    df = get_source("synthetic").fetch("BTC", START, END)
+    grid = {"fast": [5, 10, 20], "slow": [50, 100]}
+    table = grid_search(df, sma_crossover, grid, rank_by="sharpe",
+                        valid=lambda p: p["fast"] < p["slow"])
+    # one row per valid combo (all 6 satisfy fast < slow), ranked best-first
+    assert len(table) == 6
+    assert list(table.columns[:2]) == ["fast", "slow"]
+    assert table["sharpe"].is_monotonic_decreasing
+    assert (table["fast"] < table["slow"]).all()
+
+
+def test_grid_search_rejects_empty_grid():
+    df = get_source("synthetic").fetch("BTC", START, END)
+    with pytest.raises(ValueError):
+        grid_search(df, sma_crossover, {"fast": [50], "slow": [20]},
+                    valid=lambda p: p["fast"] < p["slow"])
 
 
 # -- omega -----------------------------------------------------------------
