@@ -8,7 +8,8 @@ Two pieces:
                 that all return a normalised OHLCV DataFrame.
 """
 
+from qstack.connect.loaders import load_ohlcv_csv
 from qstack.connect.sources import SyntheticSource, get_source
 from qstack.connect.store import DataStore
 
-__all__ = ["DataStore", "get_source", "SyntheticSource"]
+__all__ = ["DataStore", "get_source", "SyntheticSource", "load_ohlcv_csv"]

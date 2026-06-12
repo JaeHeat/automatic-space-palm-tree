@@ -89,6 +89,31 @@ A strategy is any `(df) -> position series in {-1,0,+1}`. Ships with
 lag (no look-ahead), charges fees + slippage, and reports CAGR, Sharpe, max
 drawdown, win rate, and trade count.
 
+### Intraday futures: Opening Range Breakout (ORB)
+
+`qstack.research.orb` is a session-aware intraday day-trading engine sized in
+real futures economics (point value, ticks, commission, slippage). It trades the
+first breakout of the opening range, with a stop and optional target sized as
+multiples of the range, and flats by the session close.
+
+```python
+from qstack.connect import load_ohlcv_csv
+from qstack.research import backtest_orb, ORBParams, NQ
+
+df = load_ohlcv_csv("nq_5m.csv")                       # Databento 5m export -> ET index
+res = backtest_orb(df, ORBParams(or_minutes=30, direction="both",
+                                 stop_mult=1.0, target_mult=2.0), NQ)
+print(res)                                             # trades, net P&L, PF, win%, maxDD, Sharpe
+```
+
+[`examples/orb_futures.py`](examples/orb_futures.py) optimizes the ORB
+parameters on an in-sample TRAIN window and reports performance on a held-out
+TEST window — so a "profitable" claim isn't just curve-fit:
+
+```bash
+python examples/orb_futures.py --csv nq_5m.csv --instrument NQ --split 2025-01-01 --plot orb_nq.png
+```
+
 ### `qstack.workflow` — orchestration (QSWorkflow)
 `Pipeline` chains ingest → research → execute into one repeatable `run()`, or
 step through the stages individually.
