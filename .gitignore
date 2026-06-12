@@ -13,3 +13,6 @@ venv/
 *.db
 qstack.db
 research.db
+
+# generated backtest artifacts
+*.png

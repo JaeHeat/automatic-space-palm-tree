@@ -63,6 +63,18 @@ qstack run --symbol AAPL --source yfinance --lookback 730   # needs the [data] e
 
 Full demo: [`examples/end_to_end.py`](examples/end_to_end.py).
 
+### Backtest real data and compare strategies
+
+[`examples/backtest_demo.py`](examples/backtest_demo.py) ingests real prices,
+backtests every strategy against a buy & hold benchmark (net of fees +
+slippage), prints a performance table, and saves an equity-curve chart.
+
+```bash
+pip install -e '.[data]'    # adds yfinance + matplotlib
+python examples/backtest_demo.py --symbol SPY --source yfinance --start 2015-01-01 --end 2024-01-01
+python examples/backtest_demo.py --symbol BTC --source synthetic   # offline, no network
+```
+
 ## The four layers
 
 ### `qstack.connect` — research database (QSConnect)
