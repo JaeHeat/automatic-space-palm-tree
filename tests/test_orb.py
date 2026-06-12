@@ -136,3 +136,41 @@ def test_trend_filter_blocks_counter_trend():
     res = backtest_orb(df, longs_only_uptrend, T)
     # daily close is constant (104 target each day) -> close is not > its own SMA
     assert len(res.trades) == 0
+
+
+def test_confirm_close_changes_entry():
+    # bar at 10:00 wicks above 100 but closes below; 10:05 closes above -> confirmed
+    bars = OR_BARS + [
+        ("10:00", 99, 101, 99, 99.5),    # wick through, close 99.5 < 100
+        ("10:05", 99.5, 102, 99.5, 101), # close 101 > 100 -> confirmed
+        ("10:10", 101, 101, 101, 101),   # entry at next bar open = 101
+        ("10:15", 101, 105, 101, 105),   # target hit
+    ]
+    df = _day(bars)
+    raw = backtest_orb(df, P, T).trades.iloc[0]
+    conf = backtest_orb(df, ORBParams(or_minutes=30, stop_mult=1.0, target_mult=2.0,
+                                      confirm_close=True), T).trades.iloc[0]
+    assert raw["entry"] == 100      # naive enters on the wick
+    assert conf["entry"] == 101     # confirmed enters next bar open
+
+
+def test_skip_monday():
+    monday = "2023-03-06"  # a Monday
+    df = _day(OR_BARS + [("10:00", 100, 101, 99, 101), ("10:05", 101, 104, 101, 104)], date=monday)
+    assert len(backtest_orb(df, P, T).trades) == 1
+    skip = ORBParams(or_minutes=30, stop_mult=1.0, target_mult=2.0, skip_monday=True)
+    assert len(backtest_orb(df, skip, T).trades) == 0
+
+
+def test_breakeven_stop_scratches_a_pullback():
+    bars = OR_BARS + [
+        ("10:00", 100, 101, 99, 101),       # long entry at 100, range 2
+        ("10:05", 101, 101.5, 100.5, 101),  # high 101.5 >= 100+0.5*2=101 -> stop to breakeven
+        ("10:10", 100.5, 100.5, 100, 100),  # pulls back to 100 -> exits at breakeven
+        ("15:55", 100, 100, 99, 100),
+    ]
+    df = _day(bars)
+    be = ORBParams(or_minutes=30, stop_mult=1.0, target_mult=None, breakeven_at=0.5)
+    tr = backtest_orb(df, be, T).trades.iloc[0]
+    assert tr["reason"] == "breakeven"
+    assert tr["pnl"] == pytest.approx(0.0)  # exited at entry, zero-cost contract

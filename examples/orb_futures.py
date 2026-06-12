@@ -27,23 +27,34 @@ from qstack.research.orb import Instrument, compute_features, day_groups, _simul
 
 INSTRUMENTS = {"NQ": NQ, "ES": ES}
 
-# Search grid. The filters (trend / vol / cutoff) are the whole point of this
-# pass -- the question is whether they make the edge survive out-of-sample.
+# Search grid. Targets keep RR >= 1:1 (target_mult >= stop_mult); the filters
+# (trend / vol / cutoff / breakout-confirmation / skip-Monday) are the levers
+# the loss analysis flagged. The question is which survive out-of-sample.
 GRID_AXES = {
-    "or_minutes": [15, 30, 60],
-    "stop_mult": [0.5, 1.0, 1.5],
-    "target_mult": [2.0, None],
+    "or_minutes": [30, 60],
+    "direction": ["both"],
+    "stop_mult": [0.75, 1.0],
+    "target_mult": [1.0, 1.5],
     "trend_ma": [0, 50],
-    "vol_min_frac": [0.0, 0.8],
-    "entry_cutoff": [time(11, 30), time(16, 0)],
+    "vol_min_frac": [0.0, 1.0],
+    "entry_cutoff": [time(11, 30)],
+    "confirm_close": [False, True],
+    "skip_monday": [False, True],
 }
 MIN_TRAIN_TRADES = 80
+TARGET_PF = 1.5          # profit-factor floor for config selection (user goal)
+TARGET_WIN = 0.60        # win-rate goal
 
 
 def build_grid() -> list[ORBParams]:
     keys = list(GRID_AXES)
-    return [ORBParams(direction="both", **dict(zip(keys, combo)))
-            for combo in itertools.product(*(GRID_AXES[k] for k in keys))]
+    grid = []
+    for combo in itertools.product(*(GRID_AXES[k] for k in keys)):
+        p = dict(zip(keys, combo))
+        if p["target_mult"] < p["stop_mult"]:   # enforce the 1:1 minimum RR
+            continue
+        grid.append(ORBParams(**p))
+    return grid
 
 
 def _fmt(p: ORBParams) -> str:
@@ -76,14 +87,16 @@ def run(csv, inst: Instrument, split, plot):
     train_dates = {d for d in all_dates if d < split_ts}
     test_dates = {d for d in all_dates if d >= split_ts}
 
-    best_j, best_val = None, float("-inf")
+    # Objective: chase the stated goal -> highest in-sample win rate among
+    # configs clearing a PF >= 1.5 floor (Sharpe breaks ties).
+    best_j, best_val = None, (-1.0, -1.0)
     for j in range(len(grid)):
         sub = trades_full[j][trades_full[j]["date"].isin(train_dates)]
         if len(sub) < MIN_TRAIN_TRADES:
             continue
         st = trade_stats(sub, len(train_dates))
-        if st["profit_factor"] > 1.0 and st["sharpe"] > best_val:
-            best_val, best_j = st["sharpe"], j
+        if st["profit_factor"] >= TARGET_PF and (st["win_rate"], st["sharpe"]) > best_val:
+            best_val, best_j = (st["win_rate"], st["sharpe"]), j
 
     print(f"\n[1] TRAIN/TEST SPLIT at {split}  (train {len(train_dates)}d / test {len(test_dates)}d)")
     if best_j is None:
@@ -96,8 +109,8 @@ def run(csv, inst: Instrument, split, plot):
         _print_stats("OUT-OF-SAMPLE(test):", trade_stats(tr[tr['date'].isin(test_dates)], len(test_dates)))
 
     # ---- 2) walk-forward (1y train, 1 quarter test, rolling) ----
-    wf = walk_forward(df, grid, inst, train_days=252, test_days=63, metric="sharpe",
-                      min_train_trades=MIN_TRAIN_TRADES // 3,
+    wf = walk_forward(df, grid, inst, train_days=252, test_days=63, metric="win_rate",
+                      min_train_trades=MIN_TRAIN_TRADES // 3, min_pf=TARGET_PF,
                       trades_full=trades_full, all_dates=all_dates)
     print(f"\n[2] WALK-FORWARD  (252d train / 63d test, rolling -> {len(wf.windows)} windows)")
     _print_stats("aggregate OUT-OF-SAMPLE:", wf.stats)

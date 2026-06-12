@@ -65,6 +65,9 @@ class ORBParams:
     trend_ma: int = 0                   # 0 = off; else require prior close on the right side of SMA(trend_ma)
     vol_min_frac: float = 0.0           # 0 = off; require OR range >= frac * median(prior ranges)
     entry_cutoff: time = time(16, 0)    # no new entries at/after this ET time
+    confirm_close: bool = False         # require the breakout BAR to CLOSE beyond the range; enter next bar open
+    breakeven_at: float | None = None   # once price runs this * range in favor, move the stop to entry
+    skip_monday: bool = False           # drop Mondays (weekend-gap digestion days bleed)
     session_open: time = time(9, 30)
     session_close: time = time(16, 0)
 
@@ -221,6 +224,8 @@ def _simulate(feat: _DayFeatures, params: ORBParams, inst: Instrument) -> pd.Dat
     for k in range(len(feat.dates)):
         if not vol_ok[k]:
             continue
+        if params.skip_monday and pd.Timestamp(feat.dates[k]).weekday() == 0:
+            continue
         al = allow_long and long_ok[k]
         ash = allow_short and short_ok[k]
         if not (al or ash):
@@ -231,25 +236,34 @@ def _simulate(feat: _DayFeatures, params: ORBParams, inst: Instrument) -> pd.Dat
         or_close_min = _minutes(params.session_open) + params.or_minutes
 
         # --- first breakout, entries only before the cutoff ---
+        # With confirm_close, the breakout BAR must close beyond the range and we
+        # enter at the next bar's open (filters wick-through false breakouts).
         side = entry = entry_i = None
         for i in range(len(m)):
             if m[i] < or_close_min or m[i] >= cutoff_min:
                 continue
-            long_hit = al and h[i] >= or_high
-            short_hit = ash and lo[i] <= or_low
+            long_hit = al and (c[i] > or_high if params.confirm_close else h[i] >= or_high)
+            short_hit = ash and (c[i] < or_low if params.confirm_close else lo[i] <= or_low)
             if long_hit and short_hit:
                 long_hit, short_hit = c[i] >= o[i], c[i] < o[i]
-            if long_hit:
-                side, entry, entry_i = "long", max(or_high, o[i]) + slip, i
-                break
-            if short_hit:
-                side, entry, entry_i = "short", min(or_low, o[i]) - slip, i
-                break
+            if not (long_hit or short_hit):
+                continue
+            if params.confirm_close:
+                if i + 1 >= len(m):
+                    break
+                entry_i = i + 1
+                entry = (o[entry_i] + slip) if long_hit else (o[entry_i] - slip)
+            else:
+                entry_i = i
+                entry = (max(or_high, o[i]) + slip) if long_hit else (min(or_low, o[i]) - slip)
+            side = "long" if long_hit else "short"
+            break
         if side is None:
             continue
 
         stop_dist = params.stop_mult * or_range
         tgt_dist = None if params.target_mult is None else params.target_mult * or_range
+        be_dist = None if params.breakeven_at is None else params.breakeven_at * or_range
         if side == "long":
             stop_px = entry - stop_dist
             tgt_px = None if tgt_dist is None else entry + tgt_dist
@@ -258,17 +272,22 @@ def _simulate(feat: _DayFeatures, params: ORBParams, inst: Instrument) -> pd.Dat
             tgt_px = None if tgt_dist is None else entry - tgt_dist
 
         exit_px = exit_time = reason = None
+        be_done = be_dist is None
         for i in range(entry_i + 1, len(m)):
             if side == "long":
                 if lo[i] <= stop_px:
-                    exit_px, reason = min(stop_px, o[i]) - slip, "stop"
+                    exit_px, reason = min(stop_px, o[i]) - slip, ("breakeven" if be_done and stop_px >= entry else "stop")
                 elif tgt_px is not None and h[i] >= tgt_px:
                     exit_px, reason = max(tgt_px, o[i]) - slip, "target"
+                elif not be_done and h[i] >= entry + be_dist:
+                    stop_px, be_done = entry, True  # lock to breakeven for later bars
             else:
                 if h[i] >= stop_px:
-                    exit_px, reason = max(stop_px, o[i]) + slip, "stop"
+                    exit_px, reason = max(stop_px, o[i]) + slip, ("breakeven" if be_done and stop_px <= entry else "stop")
                 elif tgt_px is not None and lo[i] <= tgt_px:
                     exit_px, reason = min(tgt_px, o[i]) + slip, "target"
+                elif not be_done and lo[i] <= entry - be_dist:
+                    stop_px, be_done = entry, True
             if exit_px is not None:
                 exit_time = ts[i]
                 break
@@ -325,7 +344,8 @@ class WalkForwardResult:
 
 def walk_forward(df: pd.DataFrame, grid: list[ORBParams], instrument: Instrument,
                  train_days: int = 252, test_days: int = 63, metric: str = "sharpe",
-                 min_train_trades: int = 30, trades_full: list | None = None,
+                 min_train_trades: int = 30, min_pf: float = 1.0,
+                 trades_full: list | None = None,
                  all_dates: list | None = None) -> WalkForwardResult:
     """Rolling walk-forward: re-optimize on a trailing window, trade the next.
 
@@ -361,7 +381,7 @@ def walk_forward(df: pd.DataFrame, grid: list[ORBParams], instrument: Instrument
             if len(sub) < min_train_trades:
                 continue
             st = trade_stats(sub, len(train_dates))
-            if st["profit_factor"] > 1.0 and st[metric] > best_val:
+            if st["profit_factor"] >= min_pf and st[metric] > best_val:
                 best_val, best_j = st[metric], j
 
         if best_j is not None:

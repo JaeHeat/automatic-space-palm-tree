@@ -118,8 +118,14 @@ trailing year, trade the next quarter, repeat) that produces a fully
 out-of-sample track record.
 
 ```bash
-python examples/orb_futures.py --csv nq_5m.csv --instrument NQ --split 2025-01-01 --plot orb_nq.png
+python examples/orb_futures.py  --csv nq_5m.csv --instrument NQ --split 2025-01-01 --plot orb_nq.png
+python examples/orb_analysis.py --csv nq_5m.csv   # dissect losses: win-rate/PF by side, time, trend, OR size
 ```
+
+Extra entry/exit controls for tuning the win-rate / risk-reward tradeoff:
+`confirm_close` (require the breakout bar to close beyond the range — filters
+false breakouts), `breakeven_at` (move the stop to entry after a favourable
+move), and `skip_monday`.
 
 ### `qstack.workflow` — orchestration (QSWorkflow)
 `Pipeline` chains ingest → research → execute into one repeatable `run()`, or
