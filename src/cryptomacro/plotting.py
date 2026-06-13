@@ -42,7 +42,7 @@ def plot_m2_liquidity(res: M2Liquidity):
     ax1.set_ylabel("BTC ($, log)", color="tab:orange")
     ax1b.plot(res.merged.index, res.merged["GlobalM2"], color="tab:blue", label="Global M2")
     ax1b.set_ylabel("Global M2 ($T)", color="tab:blue")
-    ax1.set_title("BTC vs Global M2 (US+EU+CN+JP, USD)")
+    ax1.set_title("BTC vs Global M2 (broad money, USD)")
 
     ax2.plot(res.rolling_corr.index, res.rolling_corr.values, color="tab:purple")
     ax2.axhline(0, color="k", lw=0.8)

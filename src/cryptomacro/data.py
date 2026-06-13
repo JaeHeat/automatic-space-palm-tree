@@ -10,7 +10,15 @@ from dataclasses import dataclass, field
 
 import pandas as pd
 
-from .fred import fetch_series
+from .fred import fetch_series, fetch_series_chunked
+
+
+def _robust_daily(series_id: str) -> pd.Series:
+    """Fetch a daily series, falling back to chunked download on slow/flaky links."""
+    try:
+        return fetch_series(series_id)
+    except Exception:  # noqa: BLE001 - large daily downloads can time out
+        return fetch_series_chunked(series_id)
 
 # ---------------------------------------------------------------------------
 # Known event dates (UTC). Useful for cycle alignment / annotations.
@@ -44,7 +52,7 @@ def get_btc(start: str | None = None) -> pd.Series:
 
 def get_nasdaq100(start: str | None = None) -> pd.Series:
     """Daily Nasdaq-100 index level (FRED ``NASDAQ100``). A clean proxy for NQ futures."""
-    s = fetch_series("NASDAQ100")
+    s = _robust_daily("NASDAQ100")
     s.name = "NDX"
     return s.loc[start:] if start else s
 
@@ -69,16 +77,31 @@ class M2Component:
     fx_usd_per_unit: bool = True
 
 
-# Default basket: US + Euro area + China + Japan. Together these dominate global M2.
+# Default basket: US + Euro area + Japan "Broad Money" (OECD MABMM301 family).
+#
+# Data-source note: there is no single keyless FRED series family for global broad
+# money that is current to today. The OECD "Broad Money" series (MABMM301*) are
+# consistent across countries and run through ~2023-11; the older M2 series
+# (MYAGM2*) stop in 2017-2019. We therefore build a consistent 3-bloc broad-money
+# aggregate (US + Euro area + Japan) covering ~2014-2023, which spans the 2018
+# bear, the 2020-21 bull and the 2022 bear -- enough to study regimes and lead-lag.
+# China is available but its keyless series ends in 2018, so it is left out of the
+# default basket (add CHINA_M2_COMPONENT to include it at the cost of a shorter window).
+#
+# FX uses *monthly* series (EX*) rather than daily (DEX*): M2 is monthly anyway.
 DEFAULT_M2_BASKET: tuple[M2Component, ...] = (
-    # M2SL is in *billions* of USD -> scale to absolute USD. No FX needed.
-    M2Component("US", "M2SL", scale=1e9, fx_series=None),
-    # Euro-area M2 in EUR; DEXUSEU is USD per 1 EUR -> multiply.
-    M2Component("EuroArea", "MYAGM2EZM196N", fx_series="DEXUSEU", fx_usd_per_unit=True),
-    # China M2 in CNY; DEXCHUS is CNY per 1 USD -> divide.
-    M2Component("China", "MYAGM2CNM189N", fx_series="DEXCHUS", fx_usd_per_unit=False),
-    # Japan M2 in JPY; DEXJPUS is JPY per 1 USD -> divide.
-    M2Component("Japan", "MYAGM2JPM189S", fx_series="DEXJPUS", fx_usd_per_unit=False),
+    # MABMM301USM189S is broad money already in USD -> no FX, no scaling.
+    M2Component("US", "MABMM301USM189S", fx_series=None),
+    # Euro-area broad money in EUR; EXUSEU is USD per 1 EUR -> multiply.
+    M2Component("EuroArea", "MABMM301EZM189S", fx_series="EXUSEU", fx_usd_per_unit=True),
+    # Japan broad money in JPY; EXJPUS is JPY per 1 USD -> divide.
+    M2Component("Japan", "MABMM301JPM189S", fx_series="EXJPUS", fx_usd_per_unit=False),
+)
+
+# Optional: China broad money (CNY). Keyless data ends 2018-12, so including it
+# truncates the Global series to that date. EXCHUS is CNY per 1 USD -> divide.
+CHINA_M2_COMPONENT = M2Component(
+    "China", "MABMM301CNM189S", fx_series="EXCHUS", fx_usd_per_unit=False
 )
 
 
@@ -135,7 +158,11 @@ BUSINESS_CYCLE_SERIES = {
 
 def get_business_cycle(start: str | None = None) -> pd.DataFrame:
     """Monthly DataFrame of business-cycle indicators (see ``BUSINESS_CYCLE_SERIES``)."""
-    cols = {name: _to_monthly(fetch_series(sid)) for name, sid in BUSINESS_CYCLE_SERIES.items()}
+    # T10Y2Y is a long daily series; use the robust (chunked-fallback) fetch for it.
+    def _fetch(sid: str) -> pd.Series:
+        return _robust_daily(sid) if sid == "T10Y2Y" else fetch_series(sid)
+
+    cols = {name: _to_monthly(_fetch(sid)) for name, sid in BUSINESS_CYCLE_SERIES.items()}
     df = pd.DataFrame(cols)
     df["industrial_production_yoy"] = df["industrial_production"].pct_change(12) * 100
     df = df.dropna(how="all")

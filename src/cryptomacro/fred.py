@@ -130,6 +130,63 @@ def _parse_csv(text: str, series_id: str) -> pd.Series:
     return s.dropna()
 
 
+def fetch_series_chunked(
+    series_id: str,
+    *,
+    start_year: int = 2014,
+    end_year: int | None = None,
+    use_cache: bool = True,
+    max_age_hours: float = 12.0,
+    timeout: float = 15.0,
+) -> pd.Series:
+    """Fetch a (large, daily) series in one-year chunks and assemble it.
+
+    On slow or rate-limited links a full daily-series download can exceed the
+    timeout, while small per-year requests succeed. This fetches
+    ``[start_year, end_year]`` a year at a time (with retries per chunk), writes
+    the assembled CSV to the normal cache, and returns the combined Series. Use
+    it for daily series like ``NASDAQ100`` or ``T10Y2Y`` when ``fetch_series``
+    times out.
+    """
+    import datetime as _dt
+
+    _CACHE_DIR.mkdir(parents=True, exist_ok=True)
+    path = _cache_path(series_id)
+    if use_cache and path.exists() and (time.time() - path.stat().st_mtime) < max_age_hours * 3600:
+        return _parse_csv(path.read_text(), series_id)
+
+    end_year = end_year or _dt.date.today().year
+    pieces: list[pd.Series] = []
+    for year in range(start_year, end_year + 1):
+        for attempt in range(5):
+            try:
+                proc = subprocess.run(
+                    ["curl", "-sS", "-m", str(int(timeout)), "-A", _HEADERS["User-Agent"],
+                     f"{FRED_CSV_URL}?id={series_id}&cosd={year}-01-01&coed={year}-12-31"],
+                    capture_output=True, text=True,
+                )
+                if "observation_date" in proc.stdout.split("\n", 1)[0]:
+                    pieces.append(_parse_csv(proc.stdout, series_id))
+                    break
+            except Exception:  # noqa: BLE001
+                pass
+            time.sleep(2)
+
+    if not pieces:
+        if path.exists():
+            return _parse_csv(path.read_text(), series_id)
+        raise RuntimeError(f"Could not chunk-fetch FRED series {series_id!r}")
+
+    combined = pd.concat(pieces)
+    combined = combined[~combined.index.duplicated(keep="last")].sort_index()
+    # Persist in the same CSV shape fetch_series expects.
+    out = combined.rename(series_id)
+    out.index.name = "observation_date"
+    path.write_text(out.to_csv())
+    combined.index.name = "date"
+    return combined
+
+
 def fetch_many(series_ids: list[str], **kwargs) -> pd.DataFrame:
     """Fetch several series and return them aligned in one DataFrame (outer join)."""
     cols = {sid: fetch_series(sid, **kwargs) for sid in series_ids}

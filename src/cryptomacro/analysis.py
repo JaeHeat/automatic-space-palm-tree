@@ -85,7 +85,9 @@ class M2Liquidity:
 
 def analyze_m2_liquidity(roll_window: int = 12, max_lag_months: int = 18) -> M2Liquidity:
     btc = data.get_btc()
-    m2 = data.get_global_m2()["Global"]
+    basket = data.DEFAULT_M2_BASKET
+    m2 = data.get_global_m2(basket)["Global"]
+    basket_label = " + ".join(c.name for c in basket)
 
     btc_m = btc.resample("ME").last()
     merged = pd.concat([btc_m.rename("BTC"), m2.rename("GlobalM2")], axis=1).dropna()
@@ -110,7 +112,9 @@ def analyze_m2_liquidity(roll_window: int = 12, max_lag_months: int = 18) -> M2L
     )
 
     summary = (
-        f"Global M2 basket: US + Euro area + China + Japan (converted to USD).\n"
+        f"Global M2 basket: {basket_label} (broad money, converted to USD).\n"
+        f"Window: {merged.index.min().date()} .. {merged.index.max().date()} "
+        f"({len(merged)} months).\n"
         f"Latest Global M2: {merged['GlobalM2'].iloc[-1]:.1f}T USD; "
         f"BTC: ${merged['BTC'].iloc[-1]:,.0f}.\n"
         f"Peak lead-lag: Global-M2 YoY growth leads BTC YoY growth by "
