@@ -1,0 +1,406 @@
+[
+ {
+  "slug": "creed-aventus",
+  "designer": "Creed Aventus",
+  "house": "Creed",
+  "price": 435,
+  "gender": "men",
+  "family": "Fruity Chypre",
+  "notes_en": [
+   "pineapple",
+   "bergamot",
+   "birch",
+   "musk",
+   "oakmoss"
+  ],
+  "notes_es": [
+   "piña",
+   "bergamota",
+   "abedul",
+   "almizcle",
+   "musgo de roble"
+  ],
+  "confidence": "high",
+  "from_price": 39.95,
+  "savings": 395,
+  "match_count": 3
+ },
+ {
+  "slug": "creed-silver-mountain-water",
+  "designer": "Creed Silver Mountain Water",
+  "house": "Creed",
+  "price": 400,
+  "gender": "unisex",
+  "family": "Fresh Woody",
+  "notes_en": [
+   "bergamot",
+   "blackcurrant",
+   "green tea",
+   "musk"
+  ],
+  "notes_es": [
+   "bergamota",
+   "grosella negra",
+   "té verde",
+   "almizcle"
+  ],
+  "confidence": "high",
+  "from_price": 39.95,
+  "savings": 360,
+  "match_count": 1
+ },
+ {
+  "slug": "creed-green-irish-tweed",
+  "designer": "Creed Green Irish Tweed",
+  "house": "Creed",
+  "price": 395,
+  "gender": "men",
+  "family": "Fresh Fougère",
+  "notes_en": [
+   "lemon verbena",
+   "violet leaf",
+   "sandalwood",
+   "ambergris"
+  ],
+  "notes_es": [
+   "verbena",
+   "hoja de violeta",
+   "sándalo",
+   "ámbar gris"
+  ],
+  "confidence": "high",
+  "from_price": 34.95,
+  "savings": 360,
+  "match_count": 3
+ },
+ {
+  "slug": "dior-sauvage",
+  "designer": "Dior Sauvage",
+  "house": "Dior",
+  "price": 165,
+  "gender": "men",
+  "family": "Aromatic Fresh",
+  "notes_en": [
+   "bergamot",
+   "pepper",
+   "ambroxan",
+   "lavender"
+  ],
+  "notes_es": [
+   "bergamota",
+   "pimienta",
+   "ambroxan",
+   "lavanda"
+  ],
+  "confidence": "high",
+  "from_price": 34.95,
+  "savings": 130,
+  "match_count": 1
+ },
+ {
+  "slug": "paco-rabanne-invictus",
+  "designer": "Paco Rabanne Invictus",
+  "house": "Paco Rabanne",
+  "price": 135,
+  "gender": "men",
+  "family": "Aquatic Woody",
+  "notes_en": [
+   "grapefruit",
+   "marine notes",
+   "bay leaf",
+   "guaiac wood"
+  ],
+  "notes_es": [
+   "pomelo",
+   "notas marinas",
+   "laurel",
+   "madera de guayaco"
+  ],
+  "confidence": "high",
+  "from_price": 34.95,
+  "savings": 100,
+  "match_count": 2
+ },
+ {
+  "slug": "bleu-de-chanel",
+  "designer": "Bleu de Chanel",
+  "house": "Chanel",
+  "price": 175,
+  "gender": "men",
+  "family": "Woody Aromatic",
+  "notes_en": [
+   "grapefruit",
+   "incense",
+   "ginger",
+   "cedar",
+   "sandalwood"
+  ],
+  "notes_es": [
+   "pomelo",
+   "incienso",
+   "jengibre",
+   "cedro",
+   "sándalo"
+  ],
+  "confidence": "medium",
+  "from_price": 34.95,
+  "savings": 140,
+  "match_count": 2
+ },
+ {
+  "slug": "maison-francis-kurkdjian-baccarat-rouge-540",
+  "designer": "Maison Francis Kurkdjian Baccarat Rouge 540",
+  "house": "MFK",
+  "price": 325,
+  "gender": "unisex",
+  "family": "Amber Floral",
+  "notes_en": [
+   "saffron",
+   "jasmine",
+   "ambergris",
+   "cedar",
+   "fir resin"
+  ],
+  "notes_es": [
+   "azafrán",
+   "jazmín",
+   "ámbar gris",
+   "cedro",
+   "resina de abeto"
+  ],
+  "confidence": "high",
+  "from_price": 34.95,
+  "savings": 290,
+  "match_count": 2
+ },
+ {
+  "slug": "maison-francis-kurkdjian-grand-soir",
+  "designer": "Maison Francis Kurkdjian Grand Soir",
+  "house": "MFK",
+  "price": 290,
+  "gender": "unisex",
+  "family": "Amber Vanilla",
+  "notes_en": [
+   "amber",
+   "vanilla",
+   "benzoin",
+   "tonka bean",
+   "cedar"
+  ],
+  "notes_es": [
+   "ámbar",
+   "vainilla",
+   "benjuí",
+   "haba tonka",
+   "cedro"
+  ],
+  "confidence": "high",
+  "from_price": 34.95,
+  "savings": 255,
+  "match_count": 1
+ },
+ {
+  "slug": "kilian-angels-share",
+  "designer": "Kilian Angels' Share",
+  "house": "Kilian",
+  "price": 290,
+  "gender": "unisex",
+  "family": "Boozy Gourmand",
+  "notes_en": [
+   "cognac",
+   "cinnamon",
+   "tonka bean",
+   "vanilla",
+   "praline"
+  ],
+  "notes_es": [
+   "coñac",
+   "canela",
+   "haba tonka",
+   "vainilla",
+   "praliné"
+  ],
+  "confidence": "high",
+  "from_price": 44.95,
+  "savings": 245,
+  "match_count": 4
+ },
+ {
+  "slug": "parfums-de-marly-delina",
+  "designer": "Parfums de Marly Delina",
+  "house": "Parfums de Marly",
+  "price": 335,
+  "gender": "women",
+  "family": "Floral Fruity",
+  "notes_en": [
+   "lychee",
+   "rose",
+   "rhubarb",
+   "vanilla",
+   "musk"
+  ],
+  "notes_es": [
+   "lichi",
+   "rosa",
+   "ruibarbo",
+   "vainilla",
+   "almizcle"
+  ],
+  "confidence": "medium",
+  "from_price": 44.95,
+  "savings": 290,
+  "match_count": 1
+ },
+ {
+  "slug": "chanel-coco-mademoiselle",
+  "designer": "Chanel Coco Mademoiselle",
+  "house": "Chanel",
+  "price": 165,
+  "gender": "women",
+  "family": "Floral Chypre",
+  "notes_en": [
+   "orange",
+   "rose",
+   "jasmine",
+   "patchouli",
+   "vanilla"
+  ],
+  "notes_es": [
+   "naranja",
+   "rosa",
+   "jazmín",
+   "pachulí",
+   "vainilla"
+  ],
+  "confidence": "medium",
+  "from_price": 49.95,
+  "savings": 115,
+  "match_count": 2
+ },
+ {
+  "slug": "dior-sauvage-elixir",
+  "designer": "Dior Sauvage Elixir",
+  "house": "Dior",
+  "price": 200,
+  "gender": "men",
+  "family": "Spicy Amber",
+  "notes_en": [
+   "cinnamon",
+   "nutmeg",
+   "grapefruit",
+   "licorice",
+   "amber"
+  ],
+  "notes_es": [
+   "canela",
+   "nuez moscada",
+   "pomelo",
+   "regaliz",
+   "ámbar"
+  ],
+  "confidence": "medium",
+  "from_price": 39.95,
+  "savings": 160,
+  "match_count": 5
+ },
+ {
+  "slug": "creed-aventus-aquatic-take",
+  "designer": "Creed Aventus (aquatic take)",
+  "house": "Creed",
+  "price": 435,
+  "gender": "men",
+  "family": "Fresh Fruity",
+  "notes_en": [
+   "apple",
+   "bergamot",
+   "ambergris",
+   "musk",
+   "lemon"
+  ],
+  "notes_es": [
+   "manzana",
+   "bergamota",
+   "ámbar gris",
+   "almizcle",
+   "limón"
+  ],
+  "confidence": "medium",
+  "from_price": 34.95,
+  "savings": 400,
+  "match_count": 6
+ },
+ {
+  "slug": "lanc-me-la-vie-est-belle",
+  "designer": "Lancôme La Vie Est Belle",
+  "house": "Lancôme",
+  "price": 140,
+  "gender": "women",
+  "family": "Sweet Gourmand",
+  "notes_en": [
+   "iris",
+   "praline",
+   "vanilla",
+   "patchouli",
+   "pear"
+  ],
+  "notes_es": [
+   "iris",
+   "praliné",
+   "vainilla",
+   "pachulí",
+   "pera"
+  ],
+  "confidence": "medium",
+  "from_price": 39.95,
+  "savings": 100,
+  "match_count": 2
+ },
+ {
+  "slug": "maison-francis-kurkdjian-br540-sweet-take",
+  "designer": "Maison Francis Kurkdjian BR540 (sweet take)",
+  "house": "MFK",
+  "price": 325,
+  "gender": "unisex",
+  "family": "Sweet Amber",
+  "notes_en": [
+   "saffron",
+   "jasmine",
+   "amberwood",
+   "caramel"
+  ],
+  "notes_es": [
+   "azafrán",
+   "jazmín",
+   "madera ambarada",
+   "caramelo"
+  ],
+  "confidence": "medium",
+  "from_price": 79.95,
+  "savings": 245,
+  "match_count": 1
+ },
+ {
+  "slug": "giorgio-armani-acqua-di-gi-profumo",
+  "designer": "Giorgio Armani Acqua di Giò Profumo",
+  "house": "Armani",
+  "price": 130,
+  "gender": "men",
+  "family": "Aquatic Aromatic",
+  "notes_en": [
+   "marine notes",
+   "bergamot",
+   "incense",
+   "patchouli"
+  ],
+  "notes_es": [
+   "notas marinas",
+   "bergamota",
+   "incienso",
+   "pachulí"
+  ],
+  "confidence": "medium",
+  "from_price": 49.95,
+  "savings": 80,
+  "match_count": 1
+ }
+]
