@@ -211,11 +211,17 @@ function card(o){
 }
 
 async function load(){
-  const j=async f=>fetch(`${DATA_BASE}/${f}`).then(r=>r.json());
-  [DESIGNERS,CATALOG,DUPES]=await Promise.all([
-    j("designers.json"), j("catalog.json"),
-    j("dupes.json").then(a=>Object.fromEntries(a.map(d=>[d.slug,d])))
-  ]);
+  if(window.EMBEDDED_DATA){           // standalone single-file build
+    DESIGNERS=window.EMBEDDED_DATA.designers;
+    CATALOG=window.EMBEDDED_DATA.catalog;
+    DUPES=Object.fromEntries(window.EMBEDDED_DATA.dupes.map(d=>[d.slug,d]));
+  }else{
+    const j=async f=>fetch(`${DATA_BASE}/${f}`).then(r=>r.json());
+    [DESIGNERS,CATALOG,DUPES]=await Promise.all([
+      j("designers.json"), j("catalog.json"),
+      j("dupes.json").then(a=>Object.fromEntries(a.map(d=>[d.slug,d])))
+    ]);
+  }
   setLang("en");
   document.getElementById("q").addEventListener("input",e=>{
     const v=e.target.value.trim();
