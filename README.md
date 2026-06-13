@@ -19,7 +19,7 @@ there are no API keys to manage. BTC and the Nasdaq-100 are pulled from FRED too
 | # | Module entry point | What it does | Method |
 |---|--------------------|--------------|--------|
 | 1 | `analysis.analyze_cycles()` | Overlay current cycle vs previous bull/bear markets, aligned to each halving; compare drawdown profiles | rebasing, drawdown, cycle alignment |
-| 2 | `analysis.analyze_m2_liquidity()` | BTC vs **Global M2** (US+EU+CN+JP in USD); rolling correlation, does liquidity *lead* price, bull vs bear | YoY-growth correlation, lead-lag cross-correlation, regime split |
+| 2 | `analysis.analyze_m2_liquidity()` | BTC vs **Global M2** (US+EU+JP broad money in USD); rolling correlation, does liquidity *lead* price, bull vs bear | YoY-growth correlation, lead-lag cross-correlation, regime split |
 | 3 | `analysis.analyze_nq()` | BTC vs **Nasdaq-100**; how much "leveraged tech risk" BTC carries and how it drifts | rolling correlation, rolling + full-sample **OLS beta** |
 | 4 | `analysis.analyze_business_cycle()` | BTC monthly returns conditioned on yield curve, industrial-production momentum, NBER recessions | regime-conditional return stats |
 
@@ -76,10 +76,10 @@ notebooks/        one notebook per analysis, calling the shared modules
 | Series | FRED id | Notes |
 |--------|---------|-------|
 | BTC/USD | `CBBTCUSD` | Coinbase; daily from 2014-12 |
-| Nasdaq-100 | `NASDAQ100` | proxy for NQ futures |
-| US M2 | `M2SL` | billions USD |
-| Euro / China / Japan M2 | `MYAGM2EZM196N`, `MYAGM2CNM189N`, `MYAGM2JPM189S` | converted to USD via FX |
-| FX | `DEXUSEU`, `DEXCHUS`, `DEXJPUS` | for the global-M2 conversion |
+| Nasdaq-100 | `NASDAQ100` | proxy for NQ futures (daily; chunk-fetched on slow links) |
+| Broad money US / Euro / Japan | `MABMM301USM189S`, `MABMM301EZM189S`, `MABMM301JPM189S` | OECD "Broad Money"; converted to USD |
+| China broad money (optional) | `MABMM301CNM189S` | keyless data ends 2018, off by default |
+| FX (monthly) | `EXUSEU`, `EXJPUS`, `EXCHUS` | for the global-M2 conversion |
 | Business cycle | `T10Y2Y`, `INDPRO`, `UNRATE`, `NFCI`, `USREC` | yield curve, output, recession flag |
 
 ## Caveats (read these before trading on it)
@@ -90,7 +90,12 @@ notebooks/        one notebook per analysis, calling the shared modules
   raw price/M2 levels, to avoid spurious trend-on-trend correlation.
 - **History is short.** BTC daily on FRED starts 2014-12, so cycle comparison covers
   the 2016/2020/2024 halvings (the 2012 cycle and 2013 top aren't in the data).
-- **Global M2 is an approximation.** It's a 4-bloc basket converted at spot FX; the
-  popular "global liquidity" charts vary in composition and FX treatment.
+- **Global M2 is an approximation.** It's a 3-bloc broad-money basket (US + Euro
+  area + Japan) converted at FX. There is no single keyless FRED series for global
+  broad money that is current to today: the consistent OECD series end ~2023-11,
+  so the BTC-vs-M2 study runs ~2014-2023 (it still spans the 2018 bear, the
+  2020-21 bull and the 2022 bear). China is available but its keyless series ends
+  in 2018, so it's optional. The popular "global liquidity" charts vary in
+  composition and FX treatment and often rely on paid/derived data.
 - **Lead-lag is in-sample.** The "M2 leads BTC by N months" figure is fit on the whole
   history; it is suggestive, not a guarantee it persists.
