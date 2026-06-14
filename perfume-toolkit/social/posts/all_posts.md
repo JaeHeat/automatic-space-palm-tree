@@ -686,3 +686,218 @@ Este es Afnan Turathi Blue Eau de Parfum 100ml — el mismo aroma aquatic aromat
 - Brand colors: deep brown/black background, gold accents. Logo bottom-right.
 - Photo: https://cdn.shopify.com/s/files/1/0701/6339/8847/files/Afnan-Turathi-Blue.jpg?v=1777322495
 
+
+
+# Jean Paul Gaultier Ultra Male  →  Afnan 9 PM Pour Femme Eau de Parfum 100ml
+**Confidence:** high  ·  **Family:** Sweet Aromatic  ·  **In-store from $39.95** (retail $110, save ~$70)
+**Buy:** https://felofraganciasshop.com/products/afnan-9-pm-pour-femme-eau-de-parfum-3-4-fl-oz
+
+---
+## Instagram / Facebook caption — EN
+They'll think you're wearing $110 Jean Paul Gaultier Ultra Male. 🤫
+
+This is Afnan 9 PM Pour Femme Eau de Parfum 100ml — the same sweet aromatic vibe as Jean Paul Gaultier Ultra Male
+(pear, lavender, cinnamon, vanilla, amber) for just $39.95 instead of $110. Save ~$70. 💸
+
+100% genuine. Free shipping over $75. DM us "Jean Paul Gaultier Ultra Male" to grab yours. 🛒
+.
+.
+#perfume #fragrance #perfumedupe #fragrancedupe #cologne #perfumelovers #designerdupe #miami #perfumetiktok #smellgood #fragancias #perfumes #perfumeria #miamiperfume #dupe
+
+## Instagram / Facebook caption — ES
+Van a pensar que llevas Jean Paul Gaultier Ultra Male de $110. 🤫
+
+Este es Afnan 9 PM Pour Femme Eau de Parfum 100ml — el mismo aroma sweet aromatic que Jean Paul Gaultier Ultra Male
+(pera, lavanda, canela, vainilla, ámbar) por solo $39.95 en vez de $110. Ahorras ~$70. 💸
+
+100% original. Envío gratis +$75. Escríbenos "Jean Paul Gaultier Ultra Male" y es tuyo. 🛒
+.
+.
+#perfume #fragrance #perfumedupe #fragrancedupe #cologne #perfumelovers #designerdupe #miami #perfumetiktok #smellgood #fragancias #perfumes #perfumeria #miamiperfume #dupe
+
+---
+## TikTok / Reel script (15–20s)
+- HOOK (0–3s): "Stop paying $110 for Jean Paul Gaultier Ultra Male." / "Deja de pagar $110 por Jean Paul Gaultier Ultra Male."
+- REVEAL (3–8s): show Afnan 9 PM Pour Femme Eau de Parfum 100ml, spray it. Text on screen: "$39.95 😳"
+- WHY (8–14s): list notes — pear, lavender, cinnamon, vanilla, amber. "Same sweet aromatic energy."
+- CTA (14–20s): "Link in bio · we ship from Miami 🌴 · 100% original"
+
+## Canva brief (for a graphic / carousel)
+- Slide 1: Big text "Jean Paul Gaultier Ultra Male" struck through → "Afnan 9 PM Pour Femme Eau de Parfum 100ml"
+- Slide 2: Price compare — $110 vs $39.95, big green "SAVE $70"
+- Slide 3: Product photo + notes pills: pear, lavender, cinnamon, vanilla, amber
+- Brand colors: deep brown/black background, gold accents. Logo bottom-right.
+- Photo: https://cdn.shopify.com/s/files/1/0701/6339/8847/files/Afnan-9-PM-Pour-femme-Eau-De-Parfum_-3.4-Fl.-Oz.jpg?v=1761817924
+
+
+
+# Louis Vuitton Imagination  →  Maison Alhambra Jean Lowe Fantasme Eau de Parfum 100ml
+**Confidence:** high  ·  **Family:** Citrus Tea Woody  ·  **In-store from $44.95** (retail $350, save ~$305)
+**Buy:** https://felofraganciasshop.com/products/maison-alhambra-jean-lowe-fantasme
+
+---
+## Instagram / Facebook caption — EN
+They'll think you're wearing $350 Louis Vuitton Imagination. 🤫
+
+This is Maison Alhambra Jean Lowe Fantasme Eau de Parfum 100ml — the same citrus tea woody vibe as Louis Vuitton Imagination
+(bergamot, black tea, ginger, ambrox, neroli) for just $44.95 instead of $350. Save ~$305. 💸
+
+100% genuine. Free shipping over $75. DM us "Louis Vuitton Imagination" to grab yours. 🛒
+.
+.
+#perfume #fragrance #perfumedupe #fragrancedupe #cologne #perfumelovers #designerdupe #miami #perfumetiktok #smellgood #fragancias #perfumes #perfumeria #miamiperfume #dupe
+
+## Instagram / Facebook caption — ES
+Van a pensar que llevas Louis Vuitton Imagination de $350. 🤫
+
+Este es Maison Alhambra Jean Lowe Fantasme Eau de Parfum 100ml — el mismo aroma citrus tea woody que Louis Vuitton Imagination
+(bergamota, té negro, jengibre, ambrox, neroli) por solo $44.95 en vez de $350. Ahorras ~$305. 💸
+
+100% original. Envío gratis +$75. Escríbenos "Louis Vuitton Imagination" y es tuyo. 🛒
+.
+.
+#perfume #fragrance #perfumedupe #fragrancedupe #cologne #perfumelovers #designerdupe #miami #perfumetiktok #smellgood #fragancias #perfumes #perfumeria #miamiperfume #dupe
+
+---
+## TikTok / Reel script (15–20s)
+- HOOK (0–3s): "Stop paying $350 for Louis Vuitton Imagination." / "Deja de pagar $350 por Louis Vuitton Imagination."
+- REVEAL (3–8s): show Maison Alhambra Jean Lowe Fantasme Eau de Parfum 100ml, spray it. Text on screen: "$44.95 😳"
+- WHY (8–14s): list notes — bergamot, black tea, ginger, ambrox, neroli. "Same citrus tea woody energy."
+- CTA (14–20s): "Link in bio · we ship from Miami 🌴 · 100% original"
+
+## Canva brief (for a graphic / carousel)
+- Slide 1: Big text "Louis Vuitton Imagination" struck through → "Maison Alhambra Jean Lowe Fantasme Eau de Parfum 100ml"
+- Slide 2: Price compare — $350 vs $44.95, big green "SAVE $305"
+- Slide 3: Product photo + notes pills: bergamot, black tea, ginger, ambrox, neroli
+- Brand colors: deep brown/black background, gold accents. Logo bottom-right.
+- Photo: https://cdn.shopify.com/s/files/1/0701/6339/8847/files/Maison-Alhambra-Jean-Lowe-Fantasme.jpg?v=1777920854
+
+
+
+# Yves Saint Laurent Y EDP  →  Maison Alhambra Yeah! Man Eau de Parfum 100ml
+**Confidence:** medium  ·  **Family:** Aromatic Fougère  ·  **In-store from $34.95** (retail $120, save ~$85)
+**Buy:** https://felofraganciasshop.com/products/maison-alhambra-yeah-man
+
+---
+## Instagram / Facebook caption — EN
+They'll think you're wearing $120 Yves Saint Laurent Y EDP. 🤫
+
+This is Maison Alhambra Yeah! Man Eau de Parfum 100ml — the same aromatic fougère vibe as Yves Saint Laurent Y EDP
+(apple, ginger, sage, geranium, amberwood) for just $34.95 instead of $120. Save ~$85. 💸
+
+100% genuine. Free shipping over $75. DM us "Yves Saint Laurent Y EDP" to grab yours. 🛒
+.
+.
+#perfume #fragrance #perfumedupe #fragrancedupe #cologne #perfumelovers #designerdupe #miami #perfumetiktok #smellgood #fragancias #perfumes #perfumeria #miamiperfume #dupe
+
+## Instagram / Facebook caption — ES
+Van a pensar que llevas Yves Saint Laurent Y EDP de $120. 🤫
+
+Este es Maison Alhambra Yeah! Man Eau de Parfum 100ml — el mismo aroma aromatic fougère que Yves Saint Laurent Y EDP
+(manzana, jengibre, salvia, geranio, madera ambarada) por solo $34.95 en vez de $120. Ahorras ~$85. 💸
+
+100% original. Envío gratis +$75. Escríbenos "Yves Saint Laurent Y EDP" y es tuyo. 🛒
+.
+.
+#perfume #fragrance #perfumedupe #fragrancedupe #cologne #perfumelovers #designerdupe #miami #perfumetiktok #smellgood #fragancias #perfumes #perfumeria #miamiperfume #dupe
+
+---
+## TikTok / Reel script (15–20s)
+- HOOK (0–3s): "Stop paying $120 for Yves Saint Laurent Y EDP." / "Deja de pagar $120 por Yves Saint Laurent Y EDP."
+- REVEAL (3–8s): show Maison Alhambra Yeah! Man Eau de Parfum 100ml, spray it. Text on screen: "$34.95 😳"
+- WHY (8–14s): list notes — apple, ginger, sage, geranium, amberwood. "Same aromatic fougère energy."
+- CTA (14–20s): "Link in bio · we ship from Miami 🌴 · 100% original"
+
+## Canva brief (for a graphic / carousel)
+- Slide 1: Big text "Yves Saint Laurent Y EDP" struck through → "Maison Alhambra Yeah! Man Eau de Parfum 100ml"
+- Slide 2: Price compare — $120 vs $34.95, big green "SAVE $85"
+- Slide 3: Product photo + notes pills: apple, ginger, sage, geranium, amberwood
+- Brand colors: deep brown/black background, gold accents. Logo bottom-right.
+- Photo: https://cdn.shopify.com/s/files/1/0701/6339/8847/files/Maison-Alhambra-Yeah_-Man.jpg?v=1778775437
+
+
+
+# Carolina Herrera Good Girl Blush  →  Lattafa Yara For Women Eau de Parfum 100ml
+**Confidence:** medium  ·  **Family:** Floral Fruity Gourmand  ·  **In-store from $39.95** (retail $130, save ~$90)
+**Buy:** https://felofraganciasshop.com/products/lattafa-yara-for-women-eau-de-parfum-100-ml
+
+---
+## Instagram / Facebook caption — EN
+They'll think you're wearing $130 Carolina Herrera Good Girl Blush. 🤫
+
+This is Lattafa Yara For Women Eau de Parfum 100ml — the same floral fruity gourmand vibe as Carolina Herrera Good Girl Blush
+(jasmine, tuberose, vanilla, tonka bean, musk) for just $39.95 instead of $130. Save ~$90. 💸
+
+100% genuine. Free shipping over $75. DM us "Carolina Herrera Good Girl Blush" to grab yours. 🛒
+.
+.
+#perfume #fragrance #perfumedupe #fragrancedupe #cologne #perfumelovers #designerdupe #miami #perfumetiktok #smellgood #fragancias #perfumes #perfumeria #miamiperfume #dupe
+
+## Instagram / Facebook caption — ES
+Van a pensar que llevas Carolina Herrera Good Girl Blush de $130. 🤫
+
+Este es Lattafa Yara For Women Eau de Parfum 100ml — el mismo aroma floral fruity gourmand que Carolina Herrera Good Girl Blush
+(jazmín, nardo, vainilla, haba tonka, almizcle) por solo $39.95 en vez de $130. Ahorras ~$90. 💸
+
+100% original. Envío gratis +$75. Escríbenos "Carolina Herrera Good Girl Blush" y es tuyo. 🛒
+.
+.
+#perfume #fragrance #perfumedupe #fragrancedupe #cologne #perfumelovers #designerdupe #miami #perfumetiktok #smellgood #fragancias #perfumes #perfumeria #miamiperfume #dupe
+
+---
+## TikTok / Reel script (15–20s)
+- HOOK (0–3s): "Stop paying $130 for Carolina Herrera Good Girl Blush." / "Deja de pagar $130 por Carolina Herrera Good Girl Blush."
+- REVEAL (3–8s): show Lattafa Yara For Women Eau de Parfum 100ml, spray it. Text on screen: "$39.95 😳"
+- WHY (8–14s): list notes — jasmine, tuberose, vanilla, tonka bean, musk. "Same floral fruity gourmand energy."
+- CTA (14–20s): "Link in bio · we ship from Miami 🌴 · 100% original"
+
+## Canva brief (for a graphic / carousel)
+- Slide 1: Big text "Carolina Herrera Good Girl Blush" struck through → "Lattafa Yara For Women Eau de Parfum 100ml"
+- Slide 2: Price compare — $130 vs $39.95, big green "SAVE $90"
+- Slide 3: Product photo + notes pills: jasmine, tuberose, vanilla, tonka bean, musk
+- Brand colors: deep brown/black background, gold accents. Logo bottom-right.
+- Photo: https://cdn.shopify.com/s/files/1/0701/6339/8847/files/Lattafa-Yara-For-Women-EDP-100ML.jpg?v=1755948350
+
+
+
+# Juliette Has a Gun Not a Perfume  →  Lattafa Ana Abiyedh Eau de Parfum 100ml
+**Confidence:** medium  ·  **Family:** Clean Musky Woody  ·  **In-store from $44.95** (retail $135, save ~$90)
+**Buy:** https://felofraganciasshop.com/products/lattafa-ana-abiyedh-eau-de-parfum-100-ml-3-4-oz
+
+---
+## Instagram / Facebook caption — EN
+They'll think you're wearing $135 Juliette Has a Gun Not a Perfume. 🤫
+
+This is Lattafa Ana Abiyedh Eau de Parfum 100ml — the same clean musky woody vibe as Juliette Has a Gun Not a Perfume
+(ambroxan, cetalox, ambergris, soft woods) for just $44.95 instead of $135. Save ~$90. 💸
+
+100% genuine. Free shipping over $75. DM us "Juliette Has a Gun Not a Perfume" to grab yours. 🛒
+.
+.
+#perfume #fragrance #perfumedupe #fragrancedupe #cologne #perfumelovers #designerdupe #miami #perfumetiktok #smellgood #fragancias #perfumes #perfumeria #miamiperfume #dupe
+
+## Instagram / Facebook caption — ES
+Van a pensar que llevas Juliette Has a Gun Not a Perfume de $135. 🤫
+
+Este es Lattafa Ana Abiyedh Eau de Parfum 100ml — el mismo aroma clean musky woody que Juliette Has a Gun Not a Perfume
+(ambroxan, cetalox, ámbar gris, maderas suaves) por solo $44.95 en vez de $135. Ahorras ~$90. 💸
+
+100% original. Envío gratis +$75. Escríbenos "Juliette Has a Gun Not a Perfume" y es tuyo. 🛒
+.
+.
+#perfume #fragrance #perfumedupe #fragrancedupe #cologne #perfumelovers #designerdupe #miami #perfumetiktok #smellgood #fragancias #perfumes #perfumeria #miamiperfume #dupe
+
+---
+## TikTok / Reel script (15–20s)
+- HOOK (0–3s): "Stop paying $135 for Juliette Has a Gun Not a Perfume." / "Deja de pagar $135 por Juliette Has a Gun Not a Perfume."
+- REVEAL (3–8s): show Lattafa Ana Abiyedh Eau de Parfum 100ml, spray it. Text on screen: "$44.95 😳"
+- WHY (8–14s): list notes — ambroxan, cetalox, ambergris, soft woods. "Same clean musky woody energy."
+- CTA (14–20s): "Link in bio · we ship from Miami 🌴 · 100% original"
+
+## Canva brief (for a graphic / carousel)
+- Slide 1: Big text "Juliette Has a Gun Not a Perfume" struck through → "Lattafa Ana Abiyedh Eau de Parfum 100ml"
+- Slide 2: Price compare — $135 vs $44.95, big green "SAVE $90"
+- Slide 3: Product photo + notes pills: ambroxan, cetalox, ambergris, soft woods
+- Brand colors: deep brown/black background, gold accents. Logo bottom-right.
+- Photo: https://cdn.shopify.com/s/files/1/0701/6339/8847/files/Lattafa-Ana-Abiyedh-Eau-de-Parfum-100-ml-_3.4-oz.jpg?v=1756394565
+

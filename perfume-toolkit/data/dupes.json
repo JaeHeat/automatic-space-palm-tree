@@ -84,6 +84,14 @@
     "url": "https://felofraganciasshop.com/products/maison-alhambra-salvo-intense-men-edp-100ml-3-4",
     "image": "https://cdn.shopify.com/s/files/1/0701/6339/8847/files/Maison-Alhambra-Salvo-Intense-Men-EDP---100ML-_3.4.jpg?v=1759226867",
     "gender": "men"
+   },
+   {
+    "title": "Armaf Club De Nuit Urban Man Elixir Eau de Parfum 105ml",
+    "brand": "Armaf",
+    "price": 49.95,
+    "url": "https://felofraganciasshop.com/products/armaf-club-de-nuit-urban-man-elixir-eau-de-parfum-105-ml",
+    "image": "https://cdn.shopify.com/s/files/1/0701/6339/8847/files/Armaf-Club-De-Nuit-Urban-Man-Elixir-105-Ml.jpg?v=1755606288",
+    "gender": "men"
    }
   ]
  },
@@ -150,6 +158,22 @@
     "url": "https://felofraganciasshop.com/products/maison-alambra-la-rouge-baroque-eau-de-parfum-100-ml-3-4-oz",
     "image": "https://cdn.shopify.com/s/files/1/0701/6339/8847/files/Maison-Alambra-La-Rouge-Baroque-Eau-de-Parfum-100-ml-_3.4-oz.jpg?v=1761171536",
     "gender": "women"
+   },
+   {
+    "title": "Lattafa Ana Abiyedh Rouge Eau de Parfum 100ml",
+    "brand": "Lattafa",
+    "price": 34.95,
+    "url": "https://felofraganciasshop.com/products/lattafa-ana-abiyedh-rouge",
+    "image": "https://cdn.shopify.com/s/files/1/0701/6339/8847/files/guia.jpg?v=1778091550",
+    "gender": "unisex"
+   },
+   {
+    "title": "Armaf Club De Nuit Untold Eau de Parfum 100ml",
+    "brand": "Armaf",
+    "price": 54.95,
+    "url": "https://felofraganciasshop.com/products/armaf-perfume-club-de-nuit-iconic-eau-de-parfum-100-ml-3-4-oz-1",
+    "image": "https://cdn.shopify.com/s/files/1/0701/6339/8847/files/Armaf-Perfume-Club-de-Nuit-Unlotd-Eau-de-Parfum-100-ml-_3.4-oz.jpg?v=1757852456",
+    "gender": "unisex"
    }
   ]
  },
@@ -388,6 +412,140 @@
     "url": "https://felofraganciasshop.com/products/afnan-turathi-blue-eau-de-parfum-100-ml-3-4-oz",
     "image": "https://cdn.shopify.com/s/files/1/0701/6339/8847/files/Afnan-Turathi-Blue.jpg?v=1777322495",
     "gender": "men"
+   }
+  ]
+ },
+ {
+  "slug": "jean-paul-gaultier-ultra-male",
+  "designer": "Jean Paul Gaultier Ultra Male",
+  "products": [
+   {
+    "title": "Afnan 9 PM Pour Femme Eau de Parfum 100ml",
+    "brand": "Afnan",
+    "price": 39.95,
+    "url": "https://felofraganciasshop.com/products/afnan-9-pm-pour-femme-eau-de-parfum-3-4-fl-oz",
+    "image": "https://cdn.shopify.com/s/files/1/0701/6339/8847/files/Afnan-9-PM-Pour-femme-Eau-De-Parfum_-3.4-Fl.-Oz.jpg?v=1761817924",
+    "gender": "women"
+   },
+   {
+    "title": "Afnan Eau De Parfum for Men 9 PM – 100 ml",
+    "brand": "Afnan",
+    "price": 39.95,
+    "url": "https://felofraganciasshop.com/products/afnan-eau-de-parfum-para-hombres-9-pm-100-ml",
+    "image": "https://cdn.shopify.com/s/files/1/0701/6339/8847/files/Afnan-Eau-De-Parfum-para-Hombres-9-PM-100-ml.jpg?v=1755614639",
+    "gender": "men"
+   },
+   {
+    "title": "Afnan 9 PM Elixir Eau de Parfum 100ml",
+    "brand": "Afnan",
+    "price": 49.95,
+    "url": "https://felofraganciasshop.com/products/afnan-9-pm-elixir-unisex-eau-de-parfum-3-4-fl-oz",
+    "image": "https://cdn.shopify.com/s/files/1/0701/6339/8847/files/Afnan-9-PM-Elixir-Unisex-Eau-De-Parfum_-3.4-Fl.-Oz.jpg?v=1761173255",
+    "gender": "men"
+   },
+   {
+    "title": "Afnan 9 PM Night Out Men Eau de Parfum 100ml",
+    "brand": "Afnan",
+    "price": 54.95,
+    "url": "https://felofraganciasshop.com/products/afnan-9-pm-night-out-men-eau-de-parfum-3-4-fl-oz",
+    "image": "https://cdn.shopify.com/s/files/1/0701/6339/8847/files/Afnan-9-PM-Night-Out-Men-Eau-De-Parfum_-3.4-Fl.-Oz.jpg?v=1775496050",
+    "gender": "unisex"
+   },
+   {
+    "title": "Afnan 9 PM Rebel Eau de Parfum 100ml",
+    "brand": "Afnan",
+    "price": 54.95,
+    "url": "https://felofraganciasshop.com/products/afnan-9-pm-rebel-unisex-eau-de-parfum-3-4-fl-oz",
+    "image": "https://cdn.shopify.com/s/files/1/0701/6339/8847/files/Afnan-9-PM-Rebel-Unisex-Eau-De-Parfum_-3.4-Fl.-Oz.jpg?v=1759224751",
+    "gender": "men"
+   }
+  ]
+ },
+ {
+  "slug": "louis-vuitton-imagination",
+  "designer": "Louis Vuitton Imagination",
+  "products": [
+   {
+    "title": "Maison Alhambra Jean Lowe Fantasme Eau de Parfum 100ml",
+    "brand": "Maison Alhambra",
+    "price": 44.95,
+    "url": "https://felofraganciasshop.com/products/maison-alhambra-jean-lowe-fantasme",
+    "image": "https://cdn.shopify.com/s/files/1/0701/6339/8847/files/Maison-Alhambra-Jean-Lowe-Fantasme.jpg?v=1777920854",
+    "gender": "unisex"
+   }
+  ]
+ },
+ {
+  "slug": "yves-saint-laurent-y-edp",
+  "designer": "Yves Saint Laurent Y EDP",
+  "products": [
+   {
+    "title": "Maison Alhambra Yeah! Man Eau de Parfum 100ml",
+    "brand": "Maison Alhambra",
+    "price": 34.95,
+    "url": "https://felofraganciasshop.com/products/maison-alhambra-yeah-man",
+    "image": "https://cdn.shopify.com/s/files/1/0701/6339/8847/files/Maison-Alhambra-Yeah_-Man.jpg?v=1778775437",
+    "gender": "men"
+   }
+  ]
+ },
+ {
+  "slug": "carolina-herrera-good-girl-blush",
+  "designer": "Carolina Herrera Good Girl Blush",
+  "products": [
+   {
+    "title": "Lattafa Yara For Women Eau de Parfum 100ml",
+    "brand": "Lattafa",
+    "price": 39.95,
+    "url": "https://felofraganciasshop.com/products/lattafa-yara-for-women-eau-de-parfum-100-ml",
+    "image": "https://cdn.shopify.com/s/files/1/0701/6339/8847/files/Lattafa-Yara-For-Women-EDP-100ML.jpg?v=1755948350",
+    "gender": "women"
+   },
+   {
+    "title": "Lattafa My Yara Collection Gift Set (25ml × 4)",
+    "brand": "Lattafa",
+    "price": 44.95,
+    "url": "https://felofraganciasshop.com/products/lattafa-my-yara-collection-gift-set-0-85-oz-25ml-x-4-for-women",
+    "image": "https://cdn.shopify.com/s/files/1/0701/6339/8847/files/Lattafa-Yara-Mini-Collection-4X5ML-Gift.jpg?v=1763225356",
+    "gender": "unisex"
+   },
+   {
+    "title": "Lattafa Yara Moi Eau de Parfum 100ml",
+    "brand": "Lattafa",
+    "price": 44.95,
+    "url": "https://felofraganciasshop.com/products/lattafa-yara-moi-eau-de-parfum-100-ml-white-yara",
+    "image": "https://cdn.shopify.com/s/files/1/0701/6339/8847/files/Lattafa-Yara-Moi-Eau-de-Parfum-100-ml.jpg?v=1756393947",
+    "gender": "unisex"
+   },
+   {
+    "title": "Lattafa Yara Tous Eau de Parfum 100ml",
+    "brand": "Lattafa",
+    "price": 44.95,
+    "url": "https://felofraganciasshop.com/products/lattafa-yara-tous-eau-de-parfum-100-ml",
+    "image": "https://cdn.shopify.com/s/files/1/0701/6339/8847/files/Lattafa-Yara-Tous-Eau-de-Parfum-100-ml.jpg?v=1755804626",
+    "gender": "women"
+   },
+   {
+    "title": "Lattafa Yara Candy Eau de Parfum 100ml",
+    "brand": "Lattafa",
+    "price": 44.95,
+    "url": "https://felofraganciasshop.com/products/lattafa-candy-eau-de-parfum-100-ml",
+    "image": "https://cdn.shopify.com/s/files/1/0701/6339/8847/files/Lattafa-Candy-Eau-de-Parfum-100-ml.jpg?v=1755804187",
+    "gender": "women"
+   }
+  ]
+ },
+ {
+  "slug": "juliette-has-a-gun-not-a-perfume",
+  "designer": "Juliette Has a Gun Not a Perfume",
+  "products": [
+   {
+    "title": "Lattafa Ana Abiyedh Eau de Parfum 100ml",
+    "brand": "Lattafa",
+    "price": 44.95,
+    "url": "https://felofraganciasshop.com/products/lattafa-ana-abiyedh-eau-de-parfum-100-ml-3-4-oz",
+    "image": "https://cdn.shopify.com/s/files/1/0701/6339/8847/files/Lattafa-Ana-Abiyedh-Eau-de-Parfum-100-ml-_3.4-oz.jpg?v=1756394565",
+    "gender": "unisex"
    }
   ]
  }

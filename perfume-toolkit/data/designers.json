@@ -95,7 +95,7 @@
   "confidence": "high",
   "from_price": 34.95,
   "savings": 130,
-  "match_count": 1
+  "match_count": 2
  },
  {
   "slug": "paco-rabanne-invictus",
@@ -171,7 +171,7 @@
   "confidence": "high",
   "from_price": 34.95,
   "savings": 290,
-  "match_count": 2
+  "match_count": 4
  },
  {
   "slug": "maison-francis-kurkdjian-grand-soir",
@@ -401,6 +401,134 @@
   "confidence": "medium",
   "from_price": 49.95,
   "savings": 80,
+  "match_count": 1
+ },
+ {
+  "slug": "jean-paul-gaultier-ultra-male",
+  "designer": "Jean Paul Gaultier Ultra Male",
+  "house": "Jean Paul Gaultier",
+  "price": 110,
+  "gender": "men",
+  "family": "Sweet Aromatic",
+  "notes_en": [
+   "pear",
+   "lavender",
+   "cinnamon",
+   "vanilla",
+   "amber"
+  ],
+  "notes_es": [
+   "pera",
+   "lavanda",
+   "canela",
+   "vainilla",
+   "ámbar"
+  ],
+  "confidence": "high",
+  "from_price": 39.95,
+  "savings": 70,
+  "match_count": 5
+ },
+ {
+  "slug": "louis-vuitton-imagination",
+  "designer": "Louis Vuitton Imagination",
+  "house": "Louis Vuitton",
+  "price": 350,
+  "gender": "men",
+  "family": "Citrus Tea Woody",
+  "notes_en": [
+   "bergamot",
+   "black tea",
+   "ginger",
+   "ambrox",
+   "neroli"
+  ],
+  "notes_es": [
+   "bergamota",
+   "té negro",
+   "jengibre",
+   "ambrox",
+   "neroli"
+  ],
+  "confidence": "high",
+  "from_price": 44.95,
+  "savings": 305,
+  "match_count": 1
+ },
+ {
+  "slug": "yves-saint-laurent-y-edp",
+  "designer": "Yves Saint Laurent Y EDP",
+  "house": "Yves Saint Laurent",
+  "price": 120,
+  "gender": "men",
+  "family": "Aromatic Fougère",
+  "notes_en": [
+   "apple",
+   "ginger",
+   "sage",
+   "geranium",
+   "amberwood"
+  ],
+  "notes_es": [
+   "manzana",
+   "jengibre",
+   "salvia",
+   "geranio",
+   "madera ambarada"
+  ],
+  "confidence": "medium",
+  "from_price": 34.95,
+  "savings": 85,
+  "match_count": 1
+ },
+ {
+  "slug": "carolina-herrera-good-girl-blush",
+  "designer": "Carolina Herrera Good Girl Blush",
+  "house": "Carolina Herrera",
+  "price": 130,
+  "gender": "women",
+  "family": "Floral Fruity Gourmand",
+  "notes_en": [
+   "jasmine",
+   "tuberose",
+   "vanilla",
+   "tonka bean",
+   "musk"
+  ],
+  "notes_es": [
+   "jazmín",
+   "nardo",
+   "vainilla",
+   "haba tonka",
+   "almizcle"
+  ],
+  "confidence": "medium",
+  "from_price": 39.95,
+  "savings": 90,
+  "match_count": 5
+ },
+ {
+  "slug": "juliette-has-a-gun-not-a-perfume",
+  "designer": "Juliette Has a Gun Not a Perfume",
+  "house": "Juliette Has a Gun",
+  "price": 135,
+  "gender": "unisex",
+  "family": "Clean Musky Woody",
+  "notes_en": [
+   "ambroxan",
+   "cetalox",
+   "ambergris",
+   "soft woods"
+  ],
+  "notes_es": [
+   "ambroxan",
+   "cetalox",
+   "ámbar gris",
+   "maderas suaves"
+  ],
+  "confidence": "medium",
+  "from_price": 44.95,
+  "savings": 90,
   "match_count": 1
  }
 ]
