@@ -145,7 +145,7 @@
   "confidence": "medium",
   "from_price": 34.95,
   "savings": 140,
-  "match_count": 3
+  "match_count": 4
  },
  {
   "slug": "maison-francis-kurkdjian-baccarat-rouge-540",
@@ -449,9 +449,9 @@
    "neroli"
   ],
   "confidence": "high",
-  "from_price": 44.95,
-  "savings": 305,
-  "match_count": 2
+  "from_price": 39.95,
+  "savings": 310,
+  "match_count": 3
  },
  {
   "slug": "yves-saint-laurent-y-edp",

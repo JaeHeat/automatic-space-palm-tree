@@ -68,7 +68,7 @@ SEED = [
         "gender": "men", "family": "Woody Aromatic",
         "notes_en": ["grapefruit", "incense", "ginger", "cedar", "sandalwood"],
         "notes_es": ["pomelo", "incienso", "jengibre", "cedro", "sándalo"],
-        "match": ["club de nuit urban man eau de parfum", "voyage bleu", "9 am dive"],
+        "match": ["club de nuit urban man eau de parfum", "voyage bleu", "9 am dive", "ana al awwal blue"],
         "confidence": "medium",
     },
     {
@@ -164,7 +164,7 @@ SEED = [
         "gender": "men", "family": "Citrus Tea Woody",
         "notes_en": ["bergamot", "black tea", "ginger", "ambrox", "neroli"],
         "notes_es": ["bergamota", "té negro", "jengibre", "ambrox", "neroli"],
-        "match": ["jean lowe fantasme", "hawas cobra"],
+        "match": ["jean lowe fantasme", "hawas cobra", "mazaaj infused"],
         "confidence": "high",
     },
     {
