@@ -37,9 +37,16 @@ def orb_R(df, preset: str, inst: Instrument) -> pd.DataFrame:
     return t[["date", "R"]]
 
 
-def rsi_R(df, inst: Instrument, rsi_n=2, entry_th=15, exit_th=80, trend_ma=100) -> pd.DataFrame:
-    """RSI(2) pullback expressed in R, with 1R = 1 x ATR(14) at entry."""
+def rsi_R(df, inst: Instrument, rsi_n=2, entry_th=15, exit_th=80, trend_ma=100,
+         stop_atr: float | None = None) -> pd.DataFrame:
+    """RSI(2) pullback expressed in R.
+
+    With ``stop_atr`` set, a hard stop at ``stop_atr x ATR`` caps each loss and
+    1R = the stop distance. With ``stop_atr=None`` there is no stop and
+    1R = 1 x ATR(14) at entry (the natural stop you would have used).
+    """
     c = df["close"].to_numpy(); o = df["open"].to_numpy()
+    h = df["high"].to_numpy(); l = df["low"].to_numpy()
     cs = pd.Series(c)
     d = cs.diff()
     up = d.clip(lower=0).rolling(rsi_n).mean(); dn = (-d.clip(upper=0)).rolling(rsi_n).mean()
@@ -51,13 +58,14 @@ def rsi_R(df, inst: Instrument, rsi_n=2, entry_th=15, exit_th=80, trend_ma=100) 
     idx = df.index; mins = (idx.hour * 60 + idx.minute).to_numpy(); date = np.array(idx.date)
     rth = (mins >= 570) & (mins < 960)
     pv, com, slip = inst.point_value, inst.commission_rt, inst.slippage_pts
+    Rden = stop_atr if stop_atr else 1.0      # 1R denominator in ATRs
 
     out = []
     for dd in np.unique(date):
         sel = np.where((date == dd) & rth)[0]
         if len(sel) < 5:
             continue
-        inpos = False; side = 0; entry = 0.0; risk = 0.0
+        inpos = False; side = 0; entry = 0.0; atr_e = 0.0; stop = None
         for k in range(len(sel) - 1):
             i = sel[k]
             if not inpos:
@@ -67,16 +75,26 @@ def rsi_R(df, inst: Instrument, rsi_n=2, entry_th=15, exit_th=80, trend_ma=100) 
                 shorts = r[i] > 100 - entry_th and c[i] < e[i]
                 if longs or shorts:
                     j = sel[k + 1]; side = 1 if longs else -1
-                    entry = o[j] + side * slip; risk = at[i]; inpos = True
+                    entry = o[j] + side * slip; atr_e = at[i]
+                    stop = (entry - side * stop_atr * atr_e) if stop_atr else None
+                    inpos = True
             else:
-                rec = (r[sel[k]] > exit_th) if side == 1 else (r[sel[k]] < 100 - exit_th)
-                if rec:
-                    j = sel[k + 1] if k + 1 < len(sel) else sel[k]
-                    ex = o[j] - side * slip
-                    out.append((dd, ((ex - entry) * side * pv - com) / (risk * pv))); inpos = False
+                i2 = sel[k]; ex = None
+                if stop is not None:
+                    if side == 1 and l[i2] <= stop:
+                        ex = min(stop, o[i2]) - slip
+                    elif side == -1 and h[i2] >= stop:
+                        ex = max(stop, o[i2]) + slip
+                if ex is None:
+                    rec = (r[i2] > exit_th) if side == 1 else (r[i2] < 100 - exit_th)
+                    if rec:
+                        j = sel[k + 1] if k + 1 < len(sel) else i2
+                        ex = o[j] - side * slip
+                if ex is not None:
+                    out.append((dd, ((ex - entry) * side * pv - com) / (Rden * atr_e * pv))); inpos = False
         if inpos:
             ex = c[sel[-1]] - side * slip
-            out.append((dd, ((ex - entry) * side * pv - com) / (risk * pv)))
+            out.append((dd, ((ex - entry) * side * pv - com) / (Rden * atr_e * pv)))
     t = pd.DataFrame(out, columns=["date", "R"]); t["date"] = pd.to_datetime(t["date"])
     return t
 
@@ -109,12 +127,14 @@ def main(argv=None):
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("--nq", required=True)
     ap.add_argument("--es", default=None)
+    ap.add_argument("--rsi-stop", type=float, default=None,
+                    help="hard ATR stop on the RSI sleeve (e.g. 3.0); default = no stop")
     args = ap.parse_args(argv)
 
     nq = load_ohlcv_csv(args.nq)
     es = load_ohlcv_csv(args.es) if args.es else None
     sleeves = {"NQ_ORB": orb_R(nq, "max_pf", NQ),
-               "NQ_RSI": rsi_R(nq, NQ),
+               "NQ_RSI": rsi_R(nq, NQ, stop_atr=args.rsi_stop),
                "NQ_ORBwin": orb_R(nq, "max_win", NQ)}
     if es is not None:
         sleeves["ES_ORB"] = orb_R(es, "balanced", ES)
