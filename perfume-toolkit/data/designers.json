@@ -145,7 +145,7 @@
   "confidence": "medium",
   "from_price": 34.95,
   "savings": 140,
-  "match_count": 2
+  "match_count": 3
  },
  {
   "slug": "maison-francis-kurkdjian-baccarat-rouge-540",
@@ -327,7 +327,7 @@
   "confidence": "medium",
   "from_price": 34.95,
   "savings": 400,
-  "match_count": 6
+  "match_count": 1
  },
  {
   "slug": "lanc-me-la-vie-est-belle",
@@ -453,7 +453,7 @@
   "confidence": "high",
   "from_price": 44.95,
   "savings": 305,
-  "match_count": 1
+  "match_count": 2
  },
  {
   "slug": "yves-saint-laurent-y-edp",
@@ -529,6 +529,108 @@
   "confidence": "medium",
   "from_price": 44.95,
   "savings": 90,
+  "match_count": 1
+ },
+ {
+  "slug": "jean-paul-gaultier-scandal-pour-homme",
+  "designer": "Jean Paul Gaultier Scandal Pour Homme",
+  "house": "Jean Paul Gaultier",
+  "price": 95,
+  "gender": "men",
+  "family": "Sweet Aromatic",
+  "notes_en": [
+   "mandarin",
+   "saffron",
+   "caramel",
+   "tonka bean",
+   "vetiver"
+  ],
+  "notes_es": [
+   "mandarina",
+   "azafrán",
+   "caramelo",
+   "haba tonka",
+   "vetiver"
+  ],
+  "confidence": "medium",
+  "from_price": 39.95,
+  "savings": 55,
+  "match_count": 2
+ },
+ {
+  "slug": "jean-paul-gaultier-le-male-elixir",
+  "designer": "Jean Paul Gaultier Le Male Elixir",
+  "house": "Jean Paul Gaultier",
+  "price": 115,
+  "gender": "men",
+  "family": "Sweet Amber",
+  "notes_en": [
+   "lavender",
+   "honey",
+   "vanilla",
+   "tonka bean",
+   "benzoin"
+  ],
+  "notes_es": [
+   "lavanda",
+   "miel",
+   "vainilla",
+   "haba tonka",
+   "benjuí"
+  ],
+  "confidence": "medium",
+  "from_price": 49.95,
+  "savings": 65,
+  "match_count": 1
+ },
+ {
+  "slug": "jean-paul-gaultier-le-beau-paradise-garden",
+  "designer": "Jean Paul Gaultier Le Beau Paradise Garden",
+  "house": "Jean Paul Gaultier",
+  "price": 100,
+  "gender": "men",
+  "family": "Tropical Coconut",
+  "notes_en": [
+   "coconut water",
+   "fig",
+   "ginger",
+   "tonka bean"
+  ],
+  "notes_es": [
+   "agua de coco",
+   "higo",
+   "jengibre",
+   "haba tonka"
+  ],
+  "confidence": "medium",
+  "from_price": 55.95,
+  "savings": 44,
+  "match_count": 1
+ },
+ {
+  "slug": "guerlain-terracotta-le-parfum",
+  "designer": "Guerlain Terracotta Le Parfum",
+  "house": "Guerlain",
+  "price": 110,
+  "gender": "unisex",
+  "family": "Tropical Floral",
+  "notes_en": [
+   "tiare flower",
+   "coconut",
+   "ylang-ylang",
+   "vanilla",
+   "neroli"
+  ],
+  "notes_es": [
+   "flor de tiaré",
+   "coco",
+   "ylang-ylang",
+   "vainilla",
+   "neroli"
+  ],
+  "confidence": "medium",
+  "from_price": 64.95,
+  "savings": 45,
   "match_count": 1
  }
 ]

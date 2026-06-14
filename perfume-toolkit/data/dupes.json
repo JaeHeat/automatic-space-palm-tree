@@ -130,6 +130,14 @@
     "gender": "men"
    },
    {
+    "title": "Afnan 9 AM Dive Eau de Parfum 100ml",
+    "brand": "Afnan",
+    "price": 39.95,
+    "url": "https://felofraganciasshop.com/products/afnan-9-am-dive-eau-de-parfum-3-4-fl-oz",
+    "image": "https://cdn.shopify.com/s/files/1/0701/6339/8847/files/Afnan-9-AM-Dive-Eau-De-Parfum_-3.4-Fl.-Oz.jpg?v=1761417647",
+    "gender": "unisex"
+   },
+   {
     "title": "Armaf Club De Nuit Urban Man Eau de Parfum 105ml",
     "brand": "Armaf",
     "price": 49.95,
@@ -322,46 +330,6 @@
     "url": "https://felofraganciasshop.com/products/rasasi-hawas-for-him-men-edp-100mi-3-40z",
     "image": "https://cdn.shopify.com/s/files/1/0701/6339/8847/files/Rasasi-Hawas-for-Him-Men-EDP---100MI-_3.40z.jpg?v=1759227045",
     "gender": "unisex"
-   },
-   {
-    "title": "Rasasi Hawas Elixir Men EDP - 100ml (3.4oz)",
-    "brand": "Rasasi",
-    "price": 39.95,
-    "url": "https://felofraganciasshop.com/products/rasasi-hawas-elixir-men-edp-100mi-3-40z",
-    "image": "https://cdn.shopify.com/s/files/1/0701/6339/8847/files/Rasasi-Hawas-Elixir-Men.jpg?v=1776705558",
-    "gender": "unisex"
-   },
-   {
-    "title": "Rasasi Hawas Black Eau de Parfum 100ml",
-    "brand": "Rasasi",
-    "price": 39.95,
-    "url": "https://felofraganciasshop.com/products/rasasi-hawas-black-men-edp-100mi-3-40z",
-    "image": "https://cdn.shopify.com/s/files/1/0701/6339/8847/files/Rasasi-Hawas-Black-Men-EDP---100MI-_3.40z.jpg?v=1762453518",
-    "gender": "unisex"
-   },
-   {
-    "title": "Rasasi Hawas Cobra",
-    "brand": "Rasasi",
-    "price": 49.95,
-    "url": "https://felofraganciasshop.com/products/rasasi-hawas-kobra",
-    "image": "https://cdn.shopify.com/s/files/1/0701/6339/8847/files/Hawas-Kobra-by-Rasasi.jpg?v=1778521117",
-    "gender": "unisex"
-   },
-   {
-    "title": "Rasasi Hawas Fire for Him Eau de Parfum 100ml",
-    "brand": "Rasasi",
-    "price": 49.95,
-    "url": "https://felofraganciasshop.com/products/rasasi-hawas-fire-for-him",
-    "image": "https://cdn.shopify.com/s/files/1/0701/6339/8847/files/Hawas-Fire-for-him-by-Rasasi.jpg?v=1777326908",
-    "gender": "men"
-   },
-   {
-    "title": "Rasasi Hawas Tropical Eau de Parfum 100ml",
-    "brand": "Rasasi",
-    "price": 55.95,
-    "url": "https://felofraganciasshop.com/products/rasasi-hawas-tropical",
-    "image": "https://cdn.shopify.com/s/files/1/0701/6339/8847/files/Hawas-Tropical-by-Rasasi.jpg?v=1777327344",
-    "gender": "unisex"
    }
   ]
  },
@@ -472,6 +440,14 @@
     "url": "https://felofraganciasshop.com/products/maison-alhambra-jean-lowe-fantasme",
     "image": "https://cdn.shopify.com/s/files/1/0701/6339/8847/files/Maison-Alhambra-Jean-Lowe-Fantasme.jpg?v=1777920854",
     "gender": "unisex"
+   },
+   {
+    "title": "Rasasi Hawas Cobra",
+    "brand": "Rasasi",
+    "price": 49.95,
+    "url": "https://felofraganciasshop.com/products/rasasi-hawas-kobra",
+    "image": "https://cdn.shopify.com/s/files/1/0701/6339/8847/files/Hawas-Kobra-by-Rasasi.jpg?v=1778521117",
+    "gender": "unisex"
    }
   ]
  },
@@ -545,6 +521,70 @@
     "price": 44.95,
     "url": "https://felofraganciasshop.com/products/lattafa-ana-abiyedh-eau-de-parfum-100-ml-3-4-oz",
     "image": "https://cdn.shopify.com/s/files/1/0701/6339/8847/files/Lattafa-Ana-Abiyedh-Eau-de-Parfum-100-ml-_3.4-oz.jpg?v=1756394565",
+    "gender": "unisex"
+   }
+  ]
+ },
+ {
+  "slug": "jean-paul-gaultier-scandal-pour-homme",
+  "designer": "Jean Paul Gaultier Scandal Pour Homme",
+  "products": [
+   {
+    "title": "Armaf Odyssey Mandarin Sky Eau de Parfum 100ml",
+    "brand": "Armaf",
+    "price": 39.95,
+    "url": "https://felofraganciasshop.com/products/armaf-odyssey-mandarin-sky-eau-de-parfum-3-4-oz",
+    "image": "https://cdn.shopify.com/s/files/1/0701/6339/8847/files/Armaf-Odyssey-Mandarin-Sky.jpg?v=1755609586",
+    "gender": "men"
+   },
+   {
+    "title": "Armaf Odyssey Mandarin Sky Elixir Eau de Parfum 100ml",
+    "brand": "Armaf",
+    "price": 49.95,
+    "url": "https://felofraganciasshop.com/products/armaf-odyssey-mandarin-sky-elixir",
+    "image": "https://cdn.shopify.com/s/files/1/0701/6339/8847/files/Armaf-Odyssey-Mandarin-Sky-Elixir.jpg?v=1758496256",
+    "gender": "men"
+   }
+  ]
+ },
+ {
+  "slug": "jean-paul-gaultier-le-male-elixir",
+  "designer": "Jean Paul Gaultier Le Male Elixir",
+  "products": [
+   {
+    "title": "Lattafa The Kingdom Men Eau de Parfum 100ml",
+    "brand": "Lattafa",
+    "price": 49.95,
+    "url": "https://felofraganciasshop.com/products/lattafa-the-kingdom-men",
+    "image": "https://cdn.shopify.com/s/files/1/0701/6339/8847/files/Lattafa-The-Kingdom-Men.jpg?v=1777328380",
+    "gender": "men"
+   }
+  ]
+ },
+ {
+  "slug": "jean-paul-gaultier-le-beau-paradise-garden",
+  "designer": "Jean Paul Gaultier Le Beau Paradise Garden",
+  "products": [
+   {
+    "title": "Rasasi Hawas Tropical Eau de Parfum 100ml",
+    "brand": "Rasasi",
+    "price": 55.95,
+    "url": "https://felofraganciasshop.com/products/rasasi-hawas-tropical",
+    "image": "https://cdn.shopify.com/s/files/1/0701/6339/8847/files/Hawas-Tropical-by-Rasasi.jpg?v=1777327344",
+    "gender": "unisex"
+   }
+  ]
+ },
+ {
+  "slug": "guerlain-terracotta-le-parfum",
+  "designer": "Guerlain Terracotta Le Parfum",
+  "products": [
+   {
+    "title": "French Avenue Veneno Bianco Unisex Eau de Parfum 100ml",
+    "brand": "French Avenue",
+    "price": 64.95,
+    "url": "https://felofraganciasshop.com/products/french-avenue-veneno-bianco-unisex-eau-de-parfum-100ml",
+    "image": "https://cdn.shopify.com/s/files/1/0701/6339/8847/files/French-Avenue-Veneno-Bianco-Unisex.jpg?v=1776712654",
     "gender": "unisex"
    }
   ]

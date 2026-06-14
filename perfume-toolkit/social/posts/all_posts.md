@@ -901,3 +901,175 @@ Este es Lattafa Ana Abiyedh Eau de Parfum 100ml — el mismo aroma clean musky w
 - Brand colors: deep brown/black background, gold accents. Logo bottom-right.
 - Photo: https://cdn.shopify.com/s/files/1/0701/6339/8847/files/Lattafa-Ana-Abiyedh-Eau-de-Parfum-100-ml-_3.4-oz.jpg?v=1756394565
 
+
+
+# Jean Paul Gaultier Scandal Pour Homme  →  Armaf Odyssey Mandarin Sky Eau de Parfum 100ml
+**Confidence:** medium  ·  **Family:** Sweet Aromatic  ·  **In-store from $39.95** (retail $95, save ~$55)
+**Buy:** https://felofraganciasshop.com/products/armaf-odyssey-mandarin-sky-eau-de-parfum-3-4-oz
+
+---
+## Instagram / Facebook caption — EN
+They'll think you're wearing $95 Jean Paul Gaultier Scandal Pour Homme. 🤫
+
+This is Armaf Odyssey Mandarin Sky Eau de Parfum 100ml — the same sweet aromatic vibe as Jean Paul Gaultier Scandal Pour Homme
+(mandarin, saffron, caramel, tonka bean, vetiver) for just $39.95 instead of $95. Save ~$55. 💸
+
+100% genuine. Free shipping over $75. DM us "Jean Paul Gaultier Scandal Pour Homme" to grab yours. 🛒
+.
+.
+#perfume #fragrance #perfumedupe #fragrancedupe #cologne #perfumelovers #designerdupe #miami #perfumetiktok #smellgood #fragancias #perfumes #perfumeria #miamiperfume #dupe
+
+## Instagram / Facebook caption — ES
+Van a pensar que llevas Jean Paul Gaultier Scandal Pour Homme de $95. 🤫
+
+Este es Armaf Odyssey Mandarin Sky Eau de Parfum 100ml — el mismo aroma sweet aromatic que Jean Paul Gaultier Scandal Pour Homme
+(mandarina, azafrán, caramelo, haba tonka, vetiver) por solo $39.95 en vez de $95. Ahorras ~$55. 💸
+
+100% original. Envío gratis +$75. Escríbenos "Jean Paul Gaultier Scandal Pour Homme" y es tuyo. 🛒
+.
+.
+#perfume #fragrance #perfumedupe #fragrancedupe #cologne #perfumelovers #designerdupe #miami #perfumetiktok #smellgood #fragancias #perfumes #perfumeria #miamiperfume #dupe
+
+---
+## TikTok / Reel script (15–20s)
+- HOOK (0–3s): "Stop paying $95 for Jean Paul Gaultier Scandal Pour Homme." / "Deja de pagar $95 por Jean Paul Gaultier Scandal Pour Homme."
+- REVEAL (3–8s): show Armaf Odyssey Mandarin Sky Eau de Parfum 100ml, spray it. Text on screen: "$39.95 😳"
+- WHY (8–14s): list notes — mandarin, saffron, caramel, tonka bean, vetiver. "Same sweet aromatic energy."
+- CTA (14–20s): "Link in bio · we ship from Miami 🌴 · 100% original"
+
+## Canva brief (for a graphic / carousel)
+- Slide 1: Big text "Jean Paul Gaultier Scandal Pour Homme" struck through → "Armaf Odyssey Mandarin Sky Eau de Parfum 100ml"
+- Slide 2: Price compare — $95 vs $39.95, big green "SAVE $55"
+- Slide 3: Product photo + notes pills: mandarin, saffron, caramel, tonka bean, vetiver
+- Brand colors: deep brown/black background, gold accents. Logo bottom-right.
+- Photo: https://cdn.shopify.com/s/files/1/0701/6339/8847/files/Armaf-Odyssey-Mandarin-Sky.jpg?v=1755609586
+
+
+
+# Jean Paul Gaultier Le Male Elixir  →  Lattafa The Kingdom Men Eau de Parfum 100ml
+**Confidence:** medium  ·  **Family:** Sweet Amber  ·  **In-store from $49.95** (retail $115, save ~$65)
+**Buy:** https://felofraganciasshop.com/products/lattafa-the-kingdom-men
+
+---
+## Instagram / Facebook caption — EN
+They'll think you're wearing $115 Jean Paul Gaultier Le Male Elixir. 🤫
+
+This is Lattafa The Kingdom Men Eau de Parfum 100ml — the same sweet amber vibe as Jean Paul Gaultier Le Male Elixir
+(lavender, honey, vanilla, tonka bean, benzoin) for just $49.95 instead of $115. Save ~$65. 💸
+
+100% genuine. Free shipping over $75. DM us "Jean Paul Gaultier Le Male Elixir" to grab yours. 🛒
+.
+.
+#perfume #fragrance #perfumedupe #fragrancedupe #cologne #perfumelovers #designerdupe #miami #perfumetiktok #smellgood #fragancias #perfumes #perfumeria #miamiperfume #dupe
+
+## Instagram / Facebook caption — ES
+Van a pensar que llevas Jean Paul Gaultier Le Male Elixir de $115. 🤫
+
+Este es Lattafa The Kingdom Men Eau de Parfum 100ml — el mismo aroma sweet amber que Jean Paul Gaultier Le Male Elixir
+(lavanda, miel, vainilla, haba tonka, benjuí) por solo $49.95 en vez de $115. Ahorras ~$65. 💸
+
+100% original. Envío gratis +$75. Escríbenos "Jean Paul Gaultier Le Male Elixir" y es tuyo. 🛒
+.
+.
+#perfume #fragrance #perfumedupe #fragrancedupe #cologne #perfumelovers #designerdupe #miami #perfumetiktok #smellgood #fragancias #perfumes #perfumeria #miamiperfume #dupe
+
+---
+## TikTok / Reel script (15–20s)
+- HOOK (0–3s): "Stop paying $115 for Jean Paul Gaultier Le Male Elixir." / "Deja de pagar $115 por Jean Paul Gaultier Le Male Elixir."
+- REVEAL (3–8s): show Lattafa The Kingdom Men Eau de Parfum 100ml, spray it. Text on screen: "$49.95 😳"
+- WHY (8–14s): list notes — lavender, honey, vanilla, tonka bean, benzoin. "Same sweet amber energy."
+- CTA (14–20s): "Link in bio · we ship from Miami 🌴 · 100% original"
+
+## Canva brief (for a graphic / carousel)
+- Slide 1: Big text "Jean Paul Gaultier Le Male Elixir" struck through → "Lattafa The Kingdom Men Eau de Parfum 100ml"
+- Slide 2: Price compare — $115 vs $49.95, big green "SAVE $65"
+- Slide 3: Product photo + notes pills: lavender, honey, vanilla, tonka bean, benzoin
+- Brand colors: deep brown/black background, gold accents. Logo bottom-right.
+- Photo: https://cdn.shopify.com/s/files/1/0701/6339/8847/files/Lattafa-The-Kingdom-Men.jpg?v=1777328380
+
+
+
+# Jean Paul Gaultier Le Beau Paradise Garden  →  Rasasi Hawas Tropical Eau de Parfum 100ml
+**Confidence:** medium  ·  **Family:** Tropical Coconut  ·  **In-store from $55.95** (retail $100, save ~$44)
+**Buy:** https://felofraganciasshop.com/products/rasasi-hawas-tropical
+
+---
+## Instagram / Facebook caption — EN
+They'll think you're wearing $100 Jean Paul Gaultier Le Beau Paradise Garden. 🤫
+
+This is Rasasi Hawas Tropical Eau de Parfum 100ml — the same tropical coconut vibe as Jean Paul Gaultier Le Beau Paradise Garden
+(coconut water, fig, ginger, tonka bean) for just $55.95 instead of $100. Save ~$44. 💸
+
+100% genuine. Free shipping over $75. DM us "Jean Paul Gaultier Le Beau Paradise Garden" to grab yours. 🛒
+.
+.
+#perfume #fragrance #perfumedupe #fragrancedupe #cologne #perfumelovers #designerdupe #miami #perfumetiktok #smellgood #fragancias #perfumes #perfumeria #miamiperfume #dupe
+
+## Instagram / Facebook caption — ES
+Van a pensar que llevas Jean Paul Gaultier Le Beau Paradise Garden de $100. 🤫
+
+Este es Rasasi Hawas Tropical Eau de Parfum 100ml — el mismo aroma tropical coconut que Jean Paul Gaultier Le Beau Paradise Garden
+(agua de coco, higo, jengibre, haba tonka) por solo $55.95 en vez de $100. Ahorras ~$44. 💸
+
+100% original. Envío gratis +$75. Escríbenos "Jean Paul Gaultier Le Beau Paradise Garden" y es tuyo. 🛒
+.
+.
+#perfume #fragrance #perfumedupe #fragrancedupe #cologne #perfumelovers #designerdupe #miami #perfumetiktok #smellgood #fragancias #perfumes #perfumeria #miamiperfume #dupe
+
+---
+## TikTok / Reel script (15–20s)
+- HOOK (0–3s): "Stop paying $100 for Jean Paul Gaultier Le Beau Paradise Garden." / "Deja de pagar $100 por Jean Paul Gaultier Le Beau Paradise Garden."
+- REVEAL (3–8s): show Rasasi Hawas Tropical Eau de Parfum 100ml, spray it. Text on screen: "$55.95 😳"
+- WHY (8–14s): list notes — coconut water, fig, ginger, tonka bean. "Same tropical coconut energy."
+- CTA (14–20s): "Link in bio · we ship from Miami 🌴 · 100% original"
+
+## Canva brief (for a graphic / carousel)
+- Slide 1: Big text "Jean Paul Gaultier Le Beau Paradise Garden" struck through → "Rasasi Hawas Tropical Eau de Parfum 100ml"
+- Slide 2: Price compare — $100 vs $55.95, big green "SAVE $44"
+- Slide 3: Product photo + notes pills: coconut water, fig, ginger, tonka bean
+- Brand colors: deep brown/black background, gold accents. Logo bottom-right.
+- Photo: https://cdn.shopify.com/s/files/1/0701/6339/8847/files/Hawas-Tropical-by-Rasasi.jpg?v=1777327344
+
+
+
+# Guerlain Terracotta Le Parfum  →  French Avenue Veneno Bianco Unisex Eau de Parfum 100ml
+**Confidence:** medium  ·  **Family:** Tropical Floral  ·  **In-store from $64.95** (retail $110, save ~$45)
+**Buy:** https://felofraganciasshop.com/products/french-avenue-veneno-bianco-unisex-eau-de-parfum-100ml
+
+---
+## Instagram / Facebook caption — EN
+They'll think you're wearing $110 Guerlain Terracotta Le Parfum. 🤫
+
+This is French Avenue Veneno Bianco Unisex Eau de Parfum 100ml — the same tropical floral vibe as Guerlain Terracotta Le Parfum
+(tiare flower, coconut, ylang-ylang, vanilla, neroli) for just $64.95 instead of $110. Save ~$45. 💸
+
+100% genuine. Free shipping over $75. DM us "Guerlain Terracotta Le Parfum" to grab yours. 🛒
+.
+.
+#perfume #fragrance #perfumedupe #fragrancedupe #cologne #perfumelovers #designerdupe #miami #perfumetiktok #smellgood #fragancias #perfumes #perfumeria #miamiperfume #dupe
+
+## Instagram / Facebook caption — ES
+Van a pensar que llevas Guerlain Terracotta Le Parfum de $110. 🤫
+
+Este es French Avenue Veneno Bianco Unisex Eau de Parfum 100ml — el mismo aroma tropical floral que Guerlain Terracotta Le Parfum
+(flor de tiaré, coco, ylang-ylang, vainilla, neroli) por solo $64.95 en vez de $110. Ahorras ~$45. 💸
+
+100% original. Envío gratis +$75. Escríbenos "Guerlain Terracotta Le Parfum" y es tuyo. 🛒
+.
+.
+#perfume #fragrance #perfumedupe #fragrancedupe #cologne #perfumelovers #designerdupe #miami #perfumetiktok #smellgood #fragancias #perfumes #perfumeria #miamiperfume #dupe
+
+---
+## TikTok / Reel script (15–20s)
+- HOOK (0–3s): "Stop paying $110 for Guerlain Terracotta Le Parfum." / "Deja de pagar $110 por Guerlain Terracotta Le Parfum."
+- REVEAL (3–8s): show French Avenue Veneno Bianco Unisex Eau de Parfum 100ml, spray it. Text on screen: "$64.95 😳"
+- WHY (8–14s): list notes — tiare flower, coconut, ylang-ylang, vanilla, neroli. "Same tropical floral energy."
+- CTA (14–20s): "Link in bio · we ship from Miami 🌴 · 100% original"
+
+## Canva brief (for a graphic / carousel)
+- Slide 1: Big text "Guerlain Terracotta Le Parfum" struck through → "French Avenue Veneno Bianco Unisex Eau de Parfum 100ml"
+- Slide 2: Price compare — $110 vs $64.95, big green "SAVE $45"
+- Slide 3: Product photo + notes pills: tiare flower, coconut, ylang-ylang, vanilla, neroli
+- Brand colors: deep brown/black background, gold accents. Logo bottom-right.
+- Photo: https://cdn.shopify.com/s/files/1/0701/6339/8847/files/French-Avenue-Veneno-Bianco-Unisex.jpg?v=1776712654
+
