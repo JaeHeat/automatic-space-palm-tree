@@ -4,20 +4,28 @@
   "designer": "Creed Aventus",
   "products": [
    {
+    "title": "Emper Genius Event Eau de Parfum Mini 25ml",
+    "brand": "Emper",
+    "price": 14.95,
+    "url": "https://felofraganciasshop.com/products/emper-genius-event-mini-25-ml",
+    "image": "https://cdn.shopify.com/s/files/1/0701/6339/8847/files/Emper-Genius-Event-Mini-25-ML.webp?v=1757955642",
+    "gender": "unisex"
+   },
+   {
+    "title": "Emper Genius Event Eau de Parfum 100ml",
+    "brand": "Emper",
+    "price": 34.95,
+    "url": "https://felofraganciasshop.com/products/emper-genius-event-eau-de-parfum-100-ml-3-4-oz",
+    "image": "https://cdn.shopify.com/s/files/1/0701/6339/8847/files/Emper-Genius-Event-3.4-OZ.jpg?v=1757003344",
+    "gender": "unisex"
+   },
+   {
     "title": "Armaf Club De Nuit Intense Eau de Toilette 105ml",
     "brand": "Armaf",
     "price": 39.95,
     "url": "https://felofraganciasshop.com/products/armaf-club-de-nuit-intense-eau-de-parfum-105-ml",
     "image": "https://cdn.shopify.com/s/files/1/0701/6339/8847/files/Armaf-Club-De-Nuit-Intense-Eau-de-Parfum-105-ml.jpg?v=1755605463",
     "gender": "men"
-   },
-   {
-    "title": "Armaf Club de Nuit Intense Woman 105 ml (3.6 FL OZ)",
-    "brand": "Armaf",
-    "price": 49.95,
-    "url": "https://felofraganciasshop.com/products/armaf-perfume-club-de-nuit-intense-woman",
-    "image": "https://cdn.shopify.com/s/files/1/0701/6339/8847/files/Armaf-Perfume-Club-de-Nuit-Intense-Woman.jpg?v=1761587446",
-    "gender": "women"
    },
    {
     "title": "Afnan Supremacy Collector's Edition Eau de Parfum 100ml",
@@ -186,8 +194,8 @@
   ]
  },
  {
-  "slug": "maison-francis-kurkdjian-grand-soir",
-  "designer": "Maison Francis Kurkdjian Grand Soir",
+  "slug": "tom-ford-noir-de-noir",
+  "designer": "Tom Ford Noir de Noir",
   "products": [
    {
     "title": "Maison Alhambra Jean Lowe Maître Eau de Parfum 100ml",
@@ -241,6 +249,14 @@
   "slug": "parfums-de-marly-delina",
   "designer": "Parfums de Marly Delina",
   "products": [
+   {
+    "title": "Maison Alhambra Delilah Eau de Parfum 100ml",
+    "brand": "Maison Alhambra",
+    "price": 34.95,
+    "url": "https://felofraganciasshop.com/products/maison-alambra-delilah-eau-de-parfum-100-ml-3-4-oz",
+    "image": "https://cdn.shopify.com/s/files/1/0701/6339/8847/files/Maison-Alambra-Delilah-Eau-de-Parfum-100-ml-_3.4-oz.jpg?v=1759226733",
+    "gender": "unisex"
+   },
    {
     "title": "Lattafa Eclaire Eau de Parfum 100ml",
     "brand": "Lattafa",
@@ -334,8 +350,8 @@
   ]
  },
  {
-  "slug": "lanc-me-la-vie-est-belle",
-  "designer": "Lancôme La Vie Est Belle",
+  "slug": "valentino-donna-born-in-roma",
+  "designer": "Valentino Donna Born in Roma",
   "products": [
    {
     "title": "Maison Alhambra Mia Dolcezza Verde Eau de Parfum 100ml",
@@ -585,6 +601,34 @@
     "price": 64.95,
     "url": "https://felofraganciasshop.com/products/french-avenue-veneno-bianco-unisex-eau-de-parfum-100ml",
     "image": "https://cdn.shopify.com/s/files/1/0701/6339/8847/files/French-Avenue-Veneno-Bianco-Unisex.jpg?v=1776712654",
+    "gender": "unisex"
+   }
+  ]
+ },
+ {
+  "slug": "narciso-rodriguez-for-her",
+  "designer": "Narciso Rodriguez For Her",
+  "products": [
+   {
+    "title": "Maison Alhambra Narissa Ruby Eau de Parfum 100ml",
+    "brand": "Maison Alhambra",
+    "price": 39.95,
+    "url": "https://felofraganciasshop.com/products/maison-alhambra-narissa-ruby",
+    "image": "https://cdn.shopify.com/s/files/1/0701/6339/8847/files/Maison-Alhambra-Narissa-Ruby.jpg?v=1777921095",
+    "gender": "unisex"
+   }
+  ]
+ },
+ {
+  "slug": "louis-vuitton-nouveau-monde",
+  "designer": "Louis Vuitton Nouveau Monde",
+  "products": [
+   {
+    "title": "Maison Alhambra Jean Lowe Fraiche Eau de Parfum 100ml",
+    "brand": "Maison Alhambra",
+    "price": 34.95,
+    "url": "https://felofraganciasshop.com/products/maison-alhambra-jean-lowe-fraiche",
+    "image": "https://cdn.shopify.com/s/files/1/0701/6339/8847/files/Maison-Alhambra-Jean-Lowe-Fraiche.jpg?v=1770055773",
     "gender": "unisex"
    }
   ]

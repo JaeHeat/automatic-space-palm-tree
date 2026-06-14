@@ -1,15 +1,15 @@
 # Felo Fragancias — Social content pack
 
-# Creed Aventus  →  Armaf Club De Nuit Intense Eau de Toilette 105ml
-**Confidence:** high  ·  **Family:** Fruity Chypre  ·  **In-store from $39.95** (retail $435, save ~$395)
-**Buy:** https://felofraganciasshop.com/products/armaf-club-de-nuit-intense-eau-de-parfum-105-ml
+# Creed Aventus  →  Emper Genius Event Eau de Parfum Mini 25ml
+**Confidence:** high  ·  **Family:** Fruity Chypre  ·  **In-store from $14.95** (retail $435, save ~$420)
+**Buy:** https://felofraganciasshop.com/products/emper-genius-event-mini-25-ml
 
 ---
 ## Instagram / Facebook caption — EN
 They'll think you're wearing $435 Creed Aventus. 🤫
 
-This is Armaf Club De Nuit Intense Eau de Toilette 105ml — the same fruity chypre vibe as Creed Aventus
-(pineapple, bergamot, birch, musk, oakmoss) for just $39.95 instead of $435. Save ~$395. 💸
+This is Emper Genius Event Eau de Parfum Mini 25ml — the same fruity chypre vibe as Creed Aventus
+(pineapple, bergamot, birch, musk, oakmoss) for just $14.95 instead of $435. Save ~$420. 💸
 
 100% genuine. Free shipping over $75. DM us "Creed Aventus" to grab yours. 🛒
 .
@@ -19,8 +19,8 @@ This is Armaf Club De Nuit Intense Eau de Toilette 105ml — the same fruity chy
 ## Instagram / Facebook caption — ES
 Van a pensar que llevas Creed Aventus de $435. 🤫
 
-Este es Armaf Club De Nuit Intense Eau de Toilette 105ml — el mismo aroma fruity chypre que Creed Aventus
-(piña, bergamota, abedul, almizcle, musgo de roble) por solo $39.95 en vez de $435. Ahorras ~$395. 💸
+Este es Emper Genius Event Eau de Parfum Mini 25ml — el mismo aroma fruity chypre que Creed Aventus
+(piña, bergamota, abedul, almizcle, musgo de roble) por solo $14.95 en vez de $435. Ahorras ~$420. 💸
 
 100% original. Envío gratis +$75. Escríbenos "Creed Aventus" y es tuyo. 🛒
 .
@@ -30,16 +30,16 @@ Este es Armaf Club De Nuit Intense Eau de Toilette 105ml — el mismo aroma frui
 ---
 ## TikTok / Reel script (15–20s)
 - HOOK (0–3s): "Stop paying $435 for Creed Aventus." / "Deja de pagar $435 por Creed Aventus."
-- REVEAL (3–8s): show Armaf Club De Nuit Intense Eau de Toilette 105ml, spray it. Text on screen: "$39.95 😳"
+- REVEAL (3–8s): show Emper Genius Event Eau de Parfum Mini 25ml, spray it. Text on screen: "$14.95 😳"
 - WHY (8–14s): list notes — pineapple, bergamot, birch, musk, oakmoss. "Same fruity chypre energy."
 - CTA (14–20s): "Link in bio · we ship from Miami 🌴 · 100% original"
 
 ## Canva brief (for a graphic / carousel)
-- Slide 1: Big text "Creed Aventus" struck through → "Armaf Club De Nuit Intense Eau de Toilette 105ml"
-- Slide 2: Price compare — $435 vs $39.95, big green "SAVE $395"
+- Slide 1: Big text "Creed Aventus" struck through → "Emper Genius Event Eau de Parfum Mini 25ml"
+- Slide 2: Price compare — $435 vs $14.95, big green "SAVE $420"
 - Slide 3: Product photo + notes pills: pineapple, bergamot, birch, musk, oakmoss
 - Brand colors: deep brown/black background, gold accents. Logo bottom-right.
-- Photo: https://cdn.shopify.com/s/files/1/0701/6339/8847/files/Armaf-Club-De-Nuit-Intense-Eau-de-Parfum-105-ml.jpg?v=1755605463
+- Photo: https://cdn.shopify.com/s/files/1/0701/6339/8847/files/Emper-Genius-Event-Mini-25-ML.webp?v=1757955642
 
 
 
@@ -301,44 +301,44 @@ Este es Maison Alhambra Baroque La Rouge Extreme Eau de Parfum 100ml — el mism
 
 
 
-# Maison Francis Kurkdjian Grand Soir  →  Maison Alhambra Jean Lowe Maître Eau de Parfum 100ml
-**Confidence:** high  ·  **Family:** Amber Vanilla  ·  **In-store from $34.95** (retail $290, save ~$255)
+# Tom Ford Noir de Noir  →  Maison Alhambra Jean Lowe Maître Eau de Parfum 100ml
+**Confidence:** medium  ·  **Family:** Rose Oud  ·  **In-store from $34.95** (retail $250, save ~$215)
 **Buy:** https://felofraganciasshop.com/products/maison-alhambra-jean-lowe-maitre
 
 ---
 ## Instagram / Facebook caption — EN
-They'll think you're wearing $290 Maison Francis Kurkdjian Grand Soir. 🤫
+They'll think you're wearing $250 Tom Ford Noir de Noir. 🤫
 
-This is Maison Alhambra Jean Lowe Maître Eau de Parfum 100ml — the same amber vanilla vibe as Maison Francis Kurkdjian Grand Soir
-(amber, vanilla, benzoin, tonka bean, cedar) for just $34.95 instead of $290. Save ~$255. 💸
+This is Maison Alhambra Jean Lowe Maître Eau de Parfum 100ml — the same rose oud vibe as Tom Ford Noir de Noir
+(rose, oud, saffron, patchouli, vanilla) for just $34.95 instead of $250. Save ~$215. 💸
 
-100% genuine. Free shipping over $75. DM us "Maison Francis Kurkdjian Grand Soir" to grab yours. 🛒
+100% genuine. Free shipping over $75. DM us "Tom Ford Noir de Noir" to grab yours. 🛒
 .
 .
 #perfume #fragrance #perfumedupe #fragrancedupe #cologne #perfumelovers #designerdupe #miami #perfumetiktok #smellgood #fragancias #perfumes #perfumeria #miamiperfume #dupe
 
 ## Instagram / Facebook caption — ES
-Van a pensar que llevas Maison Francis Kurkdjian Grand Soir de $290. 🤫
+Van a pensar que llevas Tom Ford Noir de Noir de $250. 🤫
 
-Este es Maison Alhambra Jean Lowe Maître Eau de Parfum 100ml — el mismo aroma amber vanilla que Maison Francis Kurkdjian Grand Soir
-(ámbar, vainilla, benjuí, haba tonka, cedro) por solo $34.95 en vez de $290. Ahorras ~$255. 💸
+Este es Maison Alhambra Jean Lowe Maître Eau de Parfum 100ml — el mismo aroma rose oud que Tom Ford Noir de Noir
+(rosa, oud, azafrán, pachulí, vainilla) por solo $34.95 en vez de $250. Ahorras ~$215. 💸
 
-100% original. Envío gratis +$75. Escríbenos "Maison Francis Kurkdjian Grand Soir" y es tuyo. 🛒
+100% original. Envío gratis +$75. Escríbenos "Tom Ford Noir de Noir" y es tuyo. 🛒
 .
 .
 #perfume #fragrance #perfumedupe #fragrancedupe #cologne #perfumelovers #designerdupe #miami #perfumetiktok #smellgood #fragancias #perfumes #perfumeria #miamiperfume #dupe
 
 ---
 ## TikTok / Reel script (15–20s)
-- HOOK (0–3s): "Stop paying $290 for Maison Francis Kurkdjian Grand Soir." / "Deja de pagar $290 por Maison Francis Kurkdjian Grand Soir."
+- HOOK (0–3s): "Stop paying $250 for Tom Ford Noir de Noir." / "Deja de pagar $250 por Tom Ford Noir de Noir."
 - REVEAL (3–8s): show Maison Alhambra Jean Lowe Maître Eau de Parfum 100ml, spray it. Text on screen: "$34.95 😳"
-- WHY (8–14s): list notes — amber, vanilla, benzoin, tonka bean, cedar. "Same amber vanilla energy."
+- WHY (8–14s): list notes — rose, oud, saffron, patchouli, vanilla. "Same rose oud energy."
 - CTA (14–20s): "Link in bio · we ship from Miami 🌴 · 100% original"
 
 ## Canva brief (for a graphic / carousel)
-- Slide 1: Big text "Maison Francis Kurkdjian Grand Soir" struck through → "Maison Alhambra Jean Lowe Maître Eau de Parfum 100ml"
-- Slide 2: Price compare — $290 vs $34.95, big green "SAVE $255"
-- Slide 3: Product photo + notes pills: amber, vanilla, benzoin, tonka bean, cedar
+- Slide 1: Big text "Tom Ford Noir de Noir" struck through → "Maison Alhambra Jean Lowe Maître Eau de Parfum 100ml"
+- Slide 2: Price compare — $250 vs $34.95, big green "SAVE $215"
+- Slide 3: Product photo + notes pills: rose, oud, saffron, patchouli, vanilla
 - Brand colors: deep brown/black background, gold accents. Logo bottom-right.
 - Photo: https://cdn.shopify.com/s/files/1/0701/6339/8847/files/Maison-Alhambra-Jean-Lowe-Maitre.jpg?v=1770056431
 
@@ -387,16 +387,16 @@ Este es Lattafa Khamrah Dukhan Eau de Parfum 100ml — el mismo aroma boozy gour
 
 
 
-# Parfums de Marly Delina  →  Lattafa Eclaire Eau de Parfum 100ml
-**Confidence:** medium  ·  **Family:** Floral Fruity  ·  **In-store from $44.95** (retail $335, save ~$290)
-**Buy:** https://felofraganciasshop.com/products/lattafa-eclaire-edp-spray-3-4-oz
+# Parfums de Marly Delina  →  Maison Alhambra Delilah Eau de Parfum 100ml
+**Confidence:** medium  ·  **Family:** Floral Fruity  ·  **In-store from $34.95** (retail $335, save ~$300)
+**Buy:** https://felofraganciasshop.com/products/maison-alambra-delilah-eau-de-parfum-100-ml-3-4-oz
 
 ---
 ## Instagram / Facebook caption — EN
 They'll think you're wearing $335 Parfums de Marly Delina. 🤫
 
-This is Lattafa Eclaire Eau de Parfum 100ml — the same floral fruity vibe as Parfums de Marly Delina
-(lychee, rose, rhubarb, vanilla, musk) for just $44.95 instead of $335. Save ~$290. 💸
+This is Maison Alhambra Delilah Eau de Parfum 100ml — the same floral fruity vibe as Parfums de Marly Delina
+(lychee, rose, rhubarb, vanilla, musk) for just $34.95 instead of $335. Save ~$300. 💸
 
 100% genuine. Free shipping over $75. DM us "Parfums de Marly Delina" to grab yours. 🛒
 .
@@ -406,8 +406,8 @@ This is Lattafa Eclaire Eau de Parfum 100ml — the same floral fruity vibe as P
 ## Instagram / Facebook caption — ES
 Van a pensar que llevas Parfums de Marly Delina de $335. 🤫
 
-Este es Lattafa Eclaire Eau de Parfum 100ml — el mismo aroma floral fruity que Parfums de Marly Delina
-(lichi, rosa, ruibarbo, vainilla, almizcle) por solo $44.95 en vez de $335. Ahorras ~$290. 💸
+Este es Maison Alhambra Delilah Eau de Parfum 100ml — el mismo aroma floral fruity que Parfums de Marly Delina
+(lichi, rosa, ruibarbo, vainilla, almizcle) por solo $34.95 en vez de $335. Ahorras ~$300. 💸
 
 100% original. Envío gratis +$75. Escríbenos "Parfums de Marly Delina" y es tuyo. 🛒
 .
@@ -417,16 +417,16 @@ Este es Lattafa Eclaire Eau de Parfum 100ml — el mismo aroma floral fruity que
 ---
 ## TikTok / Reel script (15–20s)
 - HOOK (0–3s): "Stop paying $335 for Parfums de Marly Delina." / "Deja de pagar $335 por Parfums de Marly Delina."
-- REVEAL (3–8s): show Lattafa Eclaire Eau de Parfum 100ml, spray it. Text on screen: "$44.95 😳"
+- REVEAL (3–8s): show Maison Alhambra Delilah Eau de Parfum 100ml, spray it. Text on screen: "$34.95 😳"
 - WHY (8–14s): list notes — lychee, rose, rhubarb, vanilla, musk. "Same floral fruity energy."
 - CTA (14–20s): "Link in bio · we ship from Miami 🌴 · 100% original"
 
 ## Canva brief (for a graphic / carousel)
-- Slide 1: Big text "Parfums de Marly Delina" struck through → "Lattafa Eclaire Eau de Parfum 100ml"
-- Slide 2: Price compare — $335 vs $44.95, big green "SAVE $290"
+- Slide 1: Big text "Parfums de Marly Delina" struck through → "Maison Alhambra Delilah Eau de Parfum 100ml"
+- Slide 2: Price compare — $335 vs $34.95, big green "SAVE $300"
 - Slide 3: Product photo + notes pills: lychee, rose, rhubarb, vanilla, musk
 - Brand colors: deep brown/black background, gold accents. Logo bottom-right.
-- Photo: https://cdn.shopify.com/s/files/1/0701/6339/8847/files/Lattafa-Eclaire-EDP-Spray-3.4-OZ.jpg?v=1761331739
+- Photo: https://cdn.shopify.com/s/files/1/0701/6339/8847/files/Maison-Alambra-Delilah-Eau-de-Parfum-100-ml-_3.4-oz.jpg?v=1759226733
 
 
 
@@ -559,44 +559,44 @@ Este es Rasasi Hawas for Him Eau de Parfum 100ml — el mismo aroma fresh fruity
 
 
 
-# Lancôme La Vie Est Belle  →  Maison Alhambra Mia Dolcezza Verde Eau de Parfum 100ml
-**Confidence:** medium  ·  **Family:** Sweet Gourmand  ·  **In-store from $39.95** (retail $140, save ~$100)
+# Valentino Donna Born in Roma  →  Maison Alhambra Mia Dolcezza Verde Eau de Parfum 100ml
+**Confidence:** medium  ·  **Family:** Floral Woody  ·  **In-store from $39.95** (retail $150, save ~$110)
 **Buy:** https://felofraganciasshop.com/products/maison-alhambra-mia-dolcezza-verde
 
 ---
 ## Instagram / Facebook caption — EN
-They'll think you're wearing $140 Lancôme La Vie Est Belle. 🤫
+They'll think you're wearing $150 Valentino Donna Born in Roma. 🤫
 
-This is Maison Alhambra Mia Dolcezza Verde Eau de Parfum 100ml — the same sweet gourmand vibe as Lancôme La Vie Est Belle
-(iris, praline, vanilla, patchouli, pear) for just $39.95 instead of $140. Save ~$100. 💸
+This is Maison Alhambra Mia Dolcezza Verde Eau de Parfum 100ml — the same floral woody vibe as Valentino Donna Born in Roma
+(blackcurrant, jasmine, vanilla bourbon, cashmeran) for just $39.95 instead of $150. Save ~$110. 💸
 
-100% genuine. Free shipping over $75. DM us "Lancôme La Vie Est Belle" to grab yours. 🛒
+100% genuine. Free shipping over $75. DM us "Valentino Donna Born in Roma" to grab yours. 🛒
 .
 .
 #perfume #fragrance #perfumedupe #fragrancedupe #cologne #perfumelovers #designerdupe #miami #perfumetiktok #smellgood #fragancias #perfumes #perfumeria #miamiperfume #dupe
 
 ## Instagram / Facebook caption — ES
-Van a pensar que llevas Lancôme La Vie Est Belle de $140. 🤫
+Van a pensar que llevas Valentino Donna Born in Roma de $150. 🤫
 
-Este es Maison Alhambra Mia Dolcezza Verde Eau de Parfum 100ml — el mismo aroma sweet gourmand que Lancôme La Vie Est Belle
-(iris, praliné, vainilla, pachulí, pera) por solo $39.95 en vez de $140. Ahorras ~$100. 💸
+Este es Maison Alhambra Mia Dolcezza Verde Eau de Parfum 100ml — el mismo aroma floral woody que Valentino Donna Born in Roma
+(grosella negra, jazmín, vainilla bourbon, cashmeran) por solo $39.95 en vez de $150. Ahorras ~$110. 💸
 
-100% original. Envío gratis +$75. Escríbenos "Lancôme La Vie Est Belle" y es tuyo. 🛒
+100% original. Envío gratis +$75. Escríbenos "Valentino Donna Born in Roma" y es tuyo. 🛒
 .
 .
 #perfume #fragrance #perfumedupe #fragrancedupe #cologne #perfumelovers #designerdupe #miami #perfumetiktok #smellgood #fragancias #perfumes #perfumeria #miamiperfume #dupe
 
 ---
 ## TikTok / Reel script (15–20s)
-- HOOK (0–3s): "Stop paying $140 for Lancôme La Vie Est Belle." / "Deja de pagar $140 por Lancôme La Vie Est Belle."
+- HOOK (0–3s): "Stop paying $150 for Valentino Donna Born in Roma." / "Deja de pagar $150 por Valentino Donna Born in Roma."
 - REVEAL (3–8s): show Maison Alhambra Mia Dolcezza Verde Eau de Parfum 100ml, spray it. Text on screen: "$39.95 😳"
-- WHY (8–14s): list notes — iris, praline, vanilla, patchouli, pear. "Same sweet gourmand energy."
+- WHY (8–14s): list notes — blackcurrant, jasmine, vanilla bourbon, cashmeran. "Same floral woody energy."
 - CTA (14–20s): "Link in bio · we ship from Miami 🌴 · 100% original"
 
 ## Canva brief (for a graphic / carousel)
-- Slide 1: Big text "Lancôme La Vie Est Belle" struck through → "Maison Alhambra Mia Dolcezza Verde Eau de Parfum 100ml"
-- Slide 2: Price compare — $140 vs $39.95, big green "SAVE $100"
-- Slide 3: Product photo + notes pills: iris, praline, vanilla, patchouli, pear
+- Slide 1: Big text "Valentino Donna Born in Roma" struck through → "Maison Alhambra Mia Dolcezza Verde Eau de Parfum 100ml"
+- Slide 2: Price compare — $150 vs $39.95, big green "SAVE $110"
+- Slide 3: Product photo + notes pills: blackcurrant, jasmine, vanilla bourbon, cashmeran
 - Brand colors: deep brown/black background, gold accents. Logo bottom-right.
 - Photo: https://cdn.shopify.com/s/files/1/0701/6339/8847/files/Maison-Alhambra-Mia-Dolcezza-Verde.jpg?v=1778521864
 
@@ -1072,4 +1072,90 @@ Este es French Avenue Veneno Bianco Unisex Eau de Parfum 100ml — el mismo arom
 - Slide 3: Product photo + notes pills: tiare flower, coconut, ylang-ylang, vanilla, neroli
 - Brand colors: deep brown/black background, gold accents. Logo bottom-right.
 - Photo: https://cdn.shopify.com/s/files/1/0701/6339/8847/files/French-Avenue-Veneno-Bianco-Unisex.jpg?v=1776712654
+
+
+
+# Narciso Rodriguez For Her  →  Maison Alhambra Narissa Ruby Eau de Parfum 100ml
+**Confidence:** medium  ·  **Family:** Floral Musk  ·  **In-store from $39.95** (retail $130, save ~$90)
+**Buy:** https://felofraganciasshop.com/products/maison-alhambra-narissa-ruby
+
+---
+## Instagram / Facebook caption — EN
+They'll think you're wearing $130 Narciso Rodriguez For Her. 🤫
+
+This is Maison Alhambra Narissa Ruby Eau de Parfum 100ml — the same floral musk vibe as Narciso Rodriguez For Her
+(rose, musk, amber, patchouli, vanilla) for just $39.95 instead of $130. Save ~$90. 💸
+
+100% genuine. Free shipping over $75. DM us "Narciso Rodriguez For Her" to grab yours. 🛒
+.
+.
+#perfume #fragrance #perfumedupe #fragrancedupe #cologne #perfumelovers #designerdupe #miami #perfumetiktok #smellgood #fragancias #perfumes #perfumeria #miamiperfume #dupe
+
+## Instagram / Facebook caption — ES
+Van a pensar que llevas Narciso Rodriguez For Her de $130. 🤫
+
+Este es Maison Alhambra Narissa Ruby Eau de Parfum 100ml — el mismo aroma floral musk que Narciso Rodriguez For Her
+(rosa, almizcle, ámbar, pachulí, vainilla) por solo $39.95 en vez de $130. Ahorras ~$90. 💸
+
+100% original. Envío gratis +$75. Escríbenos "Narciso Rodriguez For Her" y es tuyo. 🛒
+.
+.
+#perfume #fragrance #perfumedupe #fragrancedupe #cologne #perfumelovers #designerdupe #miami #perfumetiktok #smellgood #fragancias #perfumes #perfumeria #miamiperfume #dupe
+
+---
+## TikTok / Reel script (15–20s)
+- HOOK (0–3s): "Stop paying $130 for Narciso Rodriguez For Her." / "Deja de pagar $130 por Narciso Rodriguez For Her."
+- REVEAL (3–8s): show Maison Alhambra Narissa Ruby Eau de Parfum 100ml, spray it. Text on screen: "$39.95 😳"
+- WHY (8–14s): list notes — rose, musk, amber, patchouli, vanilla. "Same floral musk energy."
+- CTA (14–20s): "Link in bio · we ship from Miami 🌴 · 100% original"
+
+## Canva brief (for a graphic / carousel)
+- Slide 1: Big text "Narciso Rodriguez For Her" struck through → "Maison Alhambra Narissa Ruby Eau de Parfum 100ml"
+- Slide 2: Price compare — $130 vs $39.95, big green "SAVE $90"
+- Slide 3: Product photo + notes pills: rose, musk, amber, patchouli, vanilla
+- Brand colors: deep brown/black background, gold accents. Logo bottom-right.
+- Photo: https://cdn.shopify.com/s/files/1/0701/6339/8847/files/Maison-Alhambra-Narissa-Ruby.jpg?v=1777921095
+
+
+
+# Louis Vuitton Nouveau Monde  →  Maison Alhambra Jean Lowe Fraiche Eau de Parfum 100ml
+**Confidence:** medium  ·  **Family:** Woody Spicy  ·  **In-store from $34.95** (retail $380, save ~$345)
+**Buy:** https://felofraganciasshop.com/products/maison-alhambra-jean-lowe-fraiche
+
+---
+## Instagram / Facebook caption — EN
+They'll think you're wearing $380 Louis Vuitton Nouveau Monde. 🤫
+
+This is Maison Alhambra Jean Lowe Fraiche Eau de Parfum 100ml — the same woody spicy vibe as Louis Vuitton Nouveau Monde
+(saffron, cacao, agarwood, patchouli, leather) for just $34.95 instead of $380. Save ~$345. 💸
+
+100% genuine. Free shipping over $75. DM us "Louis Vuitton Nouveau Monde" to grab yours. 🛒
+.
+.
+#perfume #fragrance #perfumedupe #fragrancedupe #cologne #perfumelovers #designerdupe #miami #perfumetiktok #smellgood #fragancias #perfumes #perfumeria #miamiperfume #dupe
+
+## Instagram / Facebook caption — ES
+Van a pensar que llevas Louis Vuitton Nouveau Monde de $380. 🤫
+
+Este es Maison Alhambra Jean Lowe Fraiche Eau de Parfum 100ml — el mismo aroma woody spicy que Louis Vuitton Nouveau Monde
+(azafrán, cacao, madera de agar, pachulí, cuero) por solo $34.95 en vez de $380. Ahorras ~$345. 💸
+
+100% original. Envío gratis +$75. Escríbenos "Louis Vuitton Nouveau Monde" y es tuyo. 🛒
+.
+.
+#perfume #fragrance #perfumedupe #fragrancedupe #cologne #perfumelovers #designerdupe #miami #perfumetiktok #smellgood #fragancias #perfumes #perfumeria #miamiperfume #dupe
+
+---
+## TikTok / Reel script (15–20s)
+- HOOK (0–3s): "Stop paying $380 for Louis Vuitton Nouveau Monde." / "Deja de pagar $380 por Louis Vuitton Nouveau Monde."
+- REVEAL (3–8s): show Maison Alhambra Jean Lowe Fraiche Eau de Parfum 100ml, spray it. Text on screen: "$34.95 😳"
+- WHY (8–14s): list notes — saffron, cacao, agarwood, patchouli, leather. "Same woody spicy energy."
+- CTA (14–20s): "Link in bio · we ship from Miami 🌴 · 100% original"
+
+## Canva brief (for a graphic / carousel)
+- Slide 1: Big text "Louis Vuitton Nouveau Monde" struck through → "Maison Alhambra Jean Lowe Fraiche Eau de Parfum 100ml"
+- Slide 2: Price compare — $380 vs $34.95, big green "SAVE $345"
+- Slide 3: Product photo + notes pills: saffron, cacao, agarwood, patchouli, leather
+- Brand colors: deep brown/black background, gold accents. Logo bottom-right.
+- Photo: https://cdn.shopify.com/s/files/1/0701/6339/8847/files/Maison-Alhambra-Jean-Lowe-Fraiche.jpg?v=1770055773
 
