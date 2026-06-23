@@ -1,0 +1,10 @@
+# Generated output / local state
+matches.csv
+new_matches.csv
+seen.json
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/

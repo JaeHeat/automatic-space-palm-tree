@@ -1,0 +1,97 @@
+# =============================================================================
+# Miami Rental Finder — configuration
+# Edit the values below, then run:  python finder.py
+# =============================================================================
+
+# -----------------------------------------------------------------------------
+# AREAS to search.
+# Each entry becomes a separate query against Realtor.com (via HomeHarvest).
+# A "location" can be a ZIP code, a "Neighborhood, City, ST" string, or a
+# "City, ST" string. You can also search a radius (miles) around any location.
+#
+# The ZIPs below cover the areas you asked for. Trim or add as you like.
+# -----------------------------------------------------------------------------
+areas:
+  # --- Kendall / Sunset / Kendall Drive corridor ---
+  - { name: "Kendall",          location: "33156" }
+  - { name: "Kendall",          location: "33176" }
+  - { name: "Kendall",          location: "33183" }
+  - { name: "Kendall",          location: "33186" }
+  - { name: "Sunset / Kendall Dr", location: "33173" }
+  # --- Coral Gables ---
+  - { name: "Coral Gables",     location: "33134" }
+  - { name: "Coral Gables",     location: "33146" }
+  # --- Brickell / Downtown ---
+  - { name: "Brickell",         location: "33131" }
+  - { name: "Downtown Miami",   location: "33130" }
+  - { name: "Downtown Miami",   location: "33132" }
+  # --- Coconut Grove ---
+  - { name: "Coconut Grove",    location: "33133" }
+
+  # Example of a radius search around a specific address instead of a ZIP:
+  # - { name: "Near my office", location: "1 SE 3rd Ave, Miami, FL 33131", radius: 2.0 }
+
+# -----------------------------------------------------------------------------
+# FILTERS. Leave a value as null (or delete the line) to disable that filter.
+# -----------------------------------------------------------------------------
+filters:
+  price_max: 3200        # max monthly rent in dollars
+  price_min: null        # min monthly rent (usually leave null)
+  beds_min: 2            # minimum bedrooms
+  beds_max: null
+  baths_min: 2           # minimum bathrooms (full + 0.5 * half)
+  sqft_min: 900          # minimum interior square feet
+  sqft_max: null
+
+  # Listing text must mention ANY of these (case-insensitive). Empty = ignore.
+  # Good for amenities the structured fields don't capture.
+  must_mention_any:
+    - pet
+    - dog
+    - cat
+
+  # Listing text must mention ALL of these. Empty = ignore.
+  must_mention_all:
+    - parking
+
+  # Drop listings whose text mentions any of these (e.g. "no pets").
+  exclude_if_mentions:
+    - "no pets"
+    - "no pet"
+
+# -----------------------------------------------------------------------------
+# SEARCH WINDOW — only consider listings posted in the last N days.
+# Combined with new-listing de-duplication, this keeps alerts fresh.
+# -----------------------------------------------------------------------------
+search:
+  past_days: 7
+
+# -----------------------------------------------------------------------------
+# ALERTS — how you get notified about NEW matches.
+# Console + CSV are always on. ntfy and email are optional.
+# -----------------------------------------------------------------------------
+alerts:
+  # ntfy.sh — easiest mobile push. Install the free "ntfy" app, subscribe to a
+  # topic (any hard-to-guess string), and put that same topic here. No signup.
+  ntfy:
+    enabled: false
+    topic: "miami-rentals-change-me-to-something-secret"
+    server: "https://ntfy.sh"
+
+  # Email via SMTP (e.g. a Gmail App Password). Optional.
+  email:
+    enabled: false
+    smtp_host: "smtp.gmail.com"
+    smtp_port: 587
+    username: ""            # or set RENTAL_SMTP_USER env var
+    password: ""            # or set RENTAL_SMTP_PASS env var (use an App Password)
+    from_addr: ""
+    to_addrs: []            # ["you@example.com"]
+
+# -----------------------------------------------------------------------------
+# Output files.
+# -----------------------------------------------------------------------------
+output:
+  matches_csv: "matches.csv"      # all current matches (overwritten each run)
+  seen_state: "seen.json"         # tracks already-alerted listings (do not edit)
+  new_csv: "new_matches.csv"      # only the new listings from the latest run
